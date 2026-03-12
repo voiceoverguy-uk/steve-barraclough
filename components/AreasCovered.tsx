@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const areas = [
   "Pontefract",
   "Castleford",
@@ -73,44 +71,16 @@ export default function AreasCovered() {
             </p>
           </div>
 
-          <div>
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-[#003da5]/30 relative aspect-[4/3]">
-              <Image
-                src="/west-yorkshire-map.png"
-                alt="West Yorkshire coverage map — Wakefield to Pontefract and Castleford"
-                fill
-                className="object-cover object-[40%_55%]"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-              <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#0d1b2a]/60 to-transparent" />
-              <div className="absolute bottom-3 left-0 right-0 flex justify-between px-4">
-                <span className="inline-flex items-center gap-1 bg-white/90 text-[#0d1b2a] text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
-                  <svg className="w-3 h-3 text-[#003da5]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                  </svg>
-                  Wakefield
-                </span>
-                <span className="inline-flex items-center gap-1 bg-white/90 text-[#0d1b2a] text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
-                  <svg className="w-3 h-3 text-[#003da5]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                  </svg>
-                  Pontefract
-                </span>
-              </div>
-            </div>
+          <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-[#003da5]/30">
+            <iframe
+              src="https://www.google.com/maps?q=Pontefract+West+Yorkshire&output=embed"
+              width="100%"
+              height="480"
+              style={{ border: 0, display: "block" }}
+              loading="lazy"
+              title="Steve Barraclough Gas Engineers – Pontefract, West Yorkshire"
+            />
           </div>
-        </div>
-
-        {/* Embedded Google Map */}
-        <div className="mt-12">
-          <iframe
-            src="https://www.google.com/maps?q=Pontefract+West+Yorkshire&output=embed"
-            width="100%"
-            height="400"
-            style={{ border: 0, borderRadius: "12px" }}
-            loading="lazy"
-            title="Steve Barraclough Gas Engineers – Pontefract, West Yorkshire"
-          />
         </div>
       </div>
     </section>
