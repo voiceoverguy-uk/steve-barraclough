@@ -681,6 +681,93 @@ function Slide8() {
 
 function Slide9() {
   return (
+    <SlideWrapper bg={OFF_WHITE}>
+      <div className="absolute top-0 right-0" style={{ width: "40%", height: "100%", background: `linear-gradient(180deg, ${NAVY}06 0%, transparent 100%)` }} />
+      <div className="relative flex h-full" style={{ padding: "5% 7%" }}>
+        <div className="flex flex-col justify-center" style={{ width: "50%" }}>
+          <div className="flex items-center gap-2 mb-4">
+            <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
+            <span style={{ color: BLUE_ACCENT, fontSize: "1.1vw", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.1em" }}>
+              Your Online Identity
+            </span>
+          </div>
+          <h2
+            style={{
+              fontFamily: "'Montserrat', sans-serif",
+              fontSize: "3.2vw",
+              fontWeight: 800,
+              color: NAVY,
+              lineHeight: 1.15,
+              marginBottom: "3vh",
+            }}
+          >
+            Domain <span style={{ color: BLUE_ACCENT }}>Name</span> Options
+          </h2>
+          <p style={{ fontSize: "1.4vw", color: "#555", lineHeight: 1.6, marginBottom: "3vh" }}>
+            Secure your professional web address before going live. Choose the option that best suits your needs.
+          </p>
+          <div className="rounded-xl overflow-hidden" style={{ border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
+            <img src="/domain-secured.png" alt="Domain registrar showing stevebarraclough.co.uk and stevebarraclough.com availability" style={{ width: "100%", height: "auto", display: "block" }} />
+          </div>
+        </div>
+        <div className="flex flex-col justify-center gap-4" style={{ width: "50%", paddingLeft: "3vw" }}>
+          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
+            <div className="flex items-center gap-2 mb-3">
+              <div className="rounded-lg flex items-center justify-center flex-shrink-0" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: `${BLUE_ACCENT}10` }}>
+                <svg style={{ width: "1.3vw", height: "1.3vw", color: BLUE_ACCENT }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+              </div>
+              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.5vw", fontWeight: 700, color: NAVY }}>stevebarraclough.co.uk</h4>
+            </div>
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center justify-between rounded-lg" style={{ backgroundColor: `${BLUE_ACCENT}08`, padding: "1.5vh 1.2vw" }}>
+                <div className="flex items-center gap-2">
+                  <svg style={{ width: "1.1vw", height: "1.1vw", color: BLUE_ACCENT, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span style={{ fontSize: "1.15vw", color: "#555" }}>3-year registration</span>
+                </div>
+                <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY }}>&pound;120<span style={{ fontSize: "1vw", fontWeight: 600 }}>+vat</span></span>
+              </div>
+              <div className="flex items-center justify-between rounded-lg" style={{ backgroundColor: `${AMBER}08`, padding: "1.5vh 1.2vw" }}>
+                <div className="flex items-center gap-2">
+                  <svg style={{ width: "1.1vw", height: "1.1vw", color: AMBER, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span style={{ fontSize: "1.15vw", color: "#555" }}>5-year registration</span>
+                </div>
+                <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY }}>&pound;150<span style={{ fontSize: "1vw", fontWeight: 600 }}>+vat</span></span>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-xl" style={{ backgroundColor: NAVY, padding: "3vh 2vw", boxShadow: "0 8px 40px rgba(13,27,42,0.3)" }}>
+            <div className="flex items-center gap-2 mb-3">
+              <div className="rounded-lg flex items-center justify-center flex-shrink-0" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: `${AMBER}20` }}>
+                <svg style={{ width: "1.3vw", height: "1.3vw", color: AMBER }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                </svg>
+              </div>
+              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.5vw", fontWeight: 700, color: "#ffffff" }}>stevebarraclough.com</h4>
+            </div>
+            <div className="flex items-center justify-between rounded-lg" style={{ backgroundColor: `${AMBER}10`, padding: "1.5vh 1.2vw" }}>
+              <div className="flex items-center gap-2">
+                <svg style={{ width: "1.1vw", height: "1.1vw", color: AMBER, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                <span style={{ fontSize: "1.15vw", color: "#ffffffcc" }}>5-year registration</span>
+              </div>
+              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: "#ffffff" }}>&pound;175<span style={{ fontSize: "1vw", fontWeight: 600 }}>+vat</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </SlideWrapper>
+  );
+}
+
+function Slide10() {
+  return (
     <SlideWrapper bg="#f5f3ee">
       <div className="relative flex flex-col justify-center items-center h-full" style={{ padding: "5% 10%" }}>
         <div className="flex items-center gap-2 mb-4">
@@ -767,7 +854,7 @@ function Slide9() {
   );
 }
 
-function Slide10() {
+function Slide11() {
   return (
     <SlideWrapper bg={NAVY}>
       <div className="absolute inset-0" style={{ background: `linear-gradient(135deg, ${NAVY} 0%, ${DARK_SLATE} 100%)` }} />
@@ -834,8 +921,9 @@ const slides = [
   { component: Slide6, title: "Built to Win Local Customers" },
   { component: Slide7, title: "What Your Customers See" },
   { component: Slide8, title: "Hosting & Ongoing Support" },
-  { component: Slide9, title: "Investment" },
-  { component: Slide10, title: "Next Steps" },
+  { component: Slide9, title: "Domain Name Options" },
+  { component: Slide10, title: "Investment" },
+  { component: Slide11, title: "Next Steps" },
 ];
 
 export default function PitchDeck() {
