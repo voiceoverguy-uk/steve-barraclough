@@ -1,3 +1,5 @@
+"use client";
+
 export default function Hero() {
   return (
     <section
@@ -8,6 +10,16 @@ export default function Hero() {
           "linear-gradient(135deg, #0d1b2a 0%, #1a2f45 40%, #0d1b2a 100%)",
       }}
     >
+      {/* Hero background image */}
+      <div
+        className="absolute inset-0 opacity-40 pointer-events-none"
+        style={{
+          backgroundImage: `url("/gas-ring-hero.jpg")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+
       {/* Background pattern */}
       <div
         className="absolute inset-0 opacity-5"
@@ -57,6 +69,12 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .querySelector("#contact")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white/30 hover:border-white text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-200 hover:bg-white/5"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
