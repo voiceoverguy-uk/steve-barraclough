@@ -4,27 +4,15 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        background:
-          "linear-gradient(135deg, #0d1b2a 0%, #1a2f45 40%, #0d1b2a 100%)",
-      }}
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0d1b2a]"
     >
       {/* Hero background image */}
       <div
-        className="absolute inset-0 opacity-40 pointer-events-none"
+        className="absolute inset-0 opacity-30 pointer-events-none"
         style={{
           backgroundImage: `url("/gas-ring-hero.jpg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-        }}
-      />
-
-      {/* Background pattern */}
-      <div
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}
       />
 
@@ -59,7 +47,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <a
-            href="tel:01977123456"
+            href="tel:07860141571"
             className="inline-flex items-center justify-center gap-3 bg-[#ffce00] hover:bg-[#e6b800] text-[#0d1b2a] font-bold text-lg px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:shadow-[#ffce00]/25 hover:-translate-y-0.5"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -87,11 +75,10 @@ export default function Hero() {
         {/* Trust highlights */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
           {[
-            { icon: "shield", label: "Gas Safe Registered" },
-            { icon: "hash", label: "Gas Safe No. 99236" },
-            { icon: "star", label: "Worcester Bosch Accredited" },
-            { icon: "clock", label: "20+ Years' Experience" },
-            { icon: "users", label: "Father & Son Team" },
+            { label: "Gas Safe Registered" },
+            { label: "Gas Safe No. 99236" },
+            { label: "Worcester Bosch Accredited" },
+            { label: "Father & Son Team" },
           ].map((item) => (
             <div
               key={item.label}

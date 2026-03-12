@@ -65,7 +65,7 @@ export default function Contact() {
                 The quickest way to get a quote or book a visit.
               </p>
               <a
-                href="tel:01977123456"
+                href="tel:07860141571"
                 className="flex items-center gap-3 bg-white/10 hover:bg-white/20 rounded-xl px-4 py-3 transition-colors group mb-2"
               >
                 <div className="w-8 h-8 bg-[#ffce00] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -74,12 +74,12 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-bold">01977 123 456</p>
+                  <p className="text-white font-bold">07860 141571</p>
                   <p className="text-gray-400 text-xs">Main number</p>
                 </div>
               </a>
               <a
-                href="tel:07700000000"
+                href="tel:07503373239"
                 className="flex items-center gap-3 bg-white/10 hover:bg-white/20 rounded-xl px-4 py-3 transition-colors"
               >
                 <div className="w-8 h-8 bg-[#003da5] rounded-lg flex items-center justify-center flex-shrink-0">
@@ -88,7 +88,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-bold">07700 000 000</p>
+                  <p className="text-white font-bold">07503 373239</p>
                   <p className="text-gray-400 text-xs">Mobile</p>
                 </div>
               </a>
@@ -179,7 +179,7 @@ export default function Contact() {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="07700 000000"
+                      placeholder="07860 141571"
                       className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors"
                     />
                   </div>

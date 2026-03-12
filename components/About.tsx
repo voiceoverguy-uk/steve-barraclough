@@ -68,7 +68,6 @@ export default function About() {
               {[
                 "Gas Safe Registered (No. 99236)",
                 "Worcester Bosch Accredited",
-                "20+ Years' Experience",
                 "Father & Son Team",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2.5">

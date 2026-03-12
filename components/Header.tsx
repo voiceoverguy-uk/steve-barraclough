@@ -75,7 +75,7 @@ export default function Header() {
               </button>
             ))}
             <a
-              href="tel:01977123456"
+              href="tel:07860141571"
               className="ml-2 bg-[#ffce00] hover:bg-[#e6b800] text-[#0d1b2a] font-bold text-sm px-4 py-2 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-[#ffce00]/20 flex items-center gap-2"
             >
               <svg
@@ -120,7 +120,7 @@ export default function Header() {
               </button>
             ))}
             <a
-              href="tel:01977123456"
+              href="tel:07860141571"
               className="flex items-center gap-2 bg-[#ffce00] text-[#0d1b2a] font-bold text-sm px-4 py-2.5 rounded-lg mt-2 justify-center"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

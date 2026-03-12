@@ -66,7 +66,7 @@ export default function AreasCovered() {
 
             <p className="text-gray-500 text-sm mt-6">
               Not sure if we cover your area?{" "}
-              <a href="tel:01977123456" className="text-[#003da5] font-medium hover:underline">
+              <a href="tel:07860141571" className="text-[#003da5] font-medium hover:underline">
                 Give us a call
               </a>{" "}
               and we&apos;ll be happy to help.
