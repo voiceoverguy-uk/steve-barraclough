@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const quickLinks = [
   { label: "Home", href: "#home" },
   { label: "About Us", href: "#about" },
@@ -41,13 +43,25 @@ export default function Footer() {
             {/* Credential badges */}
             <div className="space-y-2.5">
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-2 mr-2">
-                <div className="w-2 h-2 bg-[#ffce00] rounded-full" />
+                <Image
+                  src="/images/gas-safe-logo.png"
+                  alt="Gas Safe Registered"
+                  width={20}
+                  height={20}
+                  className="w-5 h-5 object-contain"
+                />
                 <span className="text-gray-300 text-xs font-medium">
                   Gas Safe Registered · No. 99236
                 </span>
               </div>
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-2">
-                <div className="w-2 h-2 bg-[#003da5] rounded-full" />
+                <Image
+                  src="/images/worcester-accredited-logo.jpg"
+                  alt="Worcester Bosch Accredited Installer"
+                  width={24}
+                  height={20}
+                  className="w-6 h-5 object-contain"
+                />
                 <span className="text-gray-300 text-xs font-medium">
                   Worcester Bosch Accredited Installer
                 </span>
