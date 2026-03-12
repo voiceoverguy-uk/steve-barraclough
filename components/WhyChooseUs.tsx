@@ -6,7 +6,7 @@ const reasons = [
       </svg>
     ),
     title: "Gas Safe Registered",
-    sub: "No. 99236",
+    sub: "Fully qualified and certified engineers for safe gas work.",
   },
   {
     icon: (
@@ -15,7 +15,34 @@ const reasons = [
       </svg>
     ),
     title: "Worcester Bosch Accredited",
-    sub: "Extended warranties included",
+    sub: "Approved installers offering extended warranties.",
+  },
+  {
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+    title: "20+ Years Experience",
+    sub: "Decades of hands-on experience across West Yorkshire.",
+  },
+  {
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+      </svg>
+    ),
+    title: "Local Family Business",
+    sub: "A trusted father-and-son team based in Pontefract.",
+  },
+  {
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+      </svg>
+    ),
+    title: "Fast Response Times",
+    sub: "We aim to respond to enquiries within a few hours.",
   },
   {
     icon: (
@@ -24,28 +51,17 @@ const reasons = [
       </svg>
     ),
     title: "Free Quotes",
-    sub: "No hidden costs or surprise fees",
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-      </svg>
-    ),
-    title: "Friendly, Reliable Service",
-    sub: "On time, every time",
+    sub: "Clear pricing with no hidden surprises.",
   },
 ];
 
 export default function WhyChooseUs() {
   return (
     <section className="py-14 bg-[#0d1b2a] relative overflow-hidden">
-      {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#003da5]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#ffce00]/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-10">
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="h-0.5 w-8 bg-[#ffce00]" />
@@ -60,19 +76,18 @@ export default function WhyChooseUs() {
           </h2>
         </div>
 
-        {/* 4-card grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {reasons.map((reason) => (
             <div
               key={reason.title}
-              className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:bg-white/10 hover:border-[#ffce00]/30 transition-all duration-200 group flex items-center gap-4"
+              className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:bg-white/10 hover:border-[#ffce00]/30 transition-all duration-200 group flex items-start gap-4"
             >
               <div className="w-10 h-10 bg-[#ffce00]/10 rounded-xl flex items-center justify-center text-[#ffce00] flex-shrink-0 group-hover:bg-[#ffce00] group-hover:text-[#0d1b2a] transition-all duration-200">
                 {reason.icon}
               </div>
               <div>
                 <p className="font-bold text-white text-sm leading-snug">{reason.title}</p>
-                <p className="text-gray-400 text-xs mt-0.5">{reason.sub}</p>
+                <p className="text-gray-400 text-xs mt-1 leading-relaxed">{reason.sub}</p>
               </div>
             </div>
           ))}

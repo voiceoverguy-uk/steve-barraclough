@@ -1,0 +1,96 @@
+PROJECT: Steve Barraclough Gas Engineers website
+
+GOAL
+Polish the existing website so it feels more complete and professional for a client pitch. Do NOT redesign the layout. Only refine and add small credibility improvements.
+
+TASKS
+
+1. Improve the "Why Choose Us" section
+
+Replace the current 4 tiles with 6 tiles:
+
+• Gas Safe Registered  
+Fully qualified and certified engineers for safe gas work.
+
+• Worcester Bosch Accredited  
+Approved installers offering extended warranties.
+
+• 20+ Years Experience  
+Decades of hands-on experience across West Yorkshire.
+
+• Local Family Business  
+A trusted father-and-son team based in Pontefract.
+
+• Fast Response Times  
+We aim to respond to enquiries within a few hours.
+
+• Free Quotes  
+Clear pricing with no hidden surprises.
+
+Keep the existing card design style.
+
+---
+
+2. Add a simple embedded Google Map
+
+In the "Areas Covered" section, below the map image, embed a Google Maps iframe showing Pontefract:
+
+<iframe
+src="https://www.google.com/maps?q=Pontefract+West+Yorkshire&output=embed"
+width="100%"
+height="400"
+style="border:0;border-radius:12px;"
+loading="lazy">
+</iframe>
+
+Do NOT use Google Maps API.
+
+---
+
+3. Improve SEO wording in key areas
+
+Update hero paragraph to:
+
+"A trusted father-and-son gas and heating engineer team in Pontefract with over 20 years of experience installing, servicing and repairing boilers across West Yorkshire."
+
+Update Areas section paragraph to include:
+"gas engineer in Pontefract"
+"boiler servicing across West Yorkshire"
+
+Keep wording natural.
+
+---
+
+4. Improve Worcester Bosch badge display
+
+Reduce the Worcester Bosch badge size to around 28–32px height and align it cleanly with the Gas Safe badge.
+
+Use a smaller inline badge style rather than large cards.
+
+---
+
+5. Add footer links
+
+Add two links in the footer:
+
+Privacy Policy  
+Terms & Disclaimer
+
+Create two simple pages:
+
+/privacy-policy
+/terms
+
+Use basic boilerplate text suitable for a small local trades business.
+
+---
+
+6. Minor UI polish
+
+• Add subtle hover underline animation to navigation links.
+• Slightly increase spacing between footer columns.
+• Ensure mobile spacing is consistent.
+
+IMPORTANT
+Do not change the site layout or colour palette.
+Only polish the current design.

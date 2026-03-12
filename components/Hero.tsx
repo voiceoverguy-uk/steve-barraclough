@@ -40,8 +40,9 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Father-and-son team with over 20 years of experience in boiler
-          installations, servicing, repairs, plumbing and heating services.
+          A trusted father-and-son gas and heating engineer team in Pontefract
+          with over 20 years of experience installing, servicing and repairing
+          boilers across West Yorkshire.
         </p>
 
         {/* CTA Buttons */}

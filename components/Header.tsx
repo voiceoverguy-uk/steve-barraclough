@@ -69,7 +69,7 @@ export default function Header() {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors duration-200"
+                className="nav-link relative text-gray-300 hover:text-white text-sm font-medium transition-colors duration-200 after:absolute after:bottom-[-2px] after:left-0 after:h-0.5 after:w-0 after:bg-[#ffce00] after:transition-all after:duration-200 hover:after:w-full"
               >
                 {link.label}
               </button>

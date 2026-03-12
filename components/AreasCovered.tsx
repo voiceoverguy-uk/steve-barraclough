@@ -37,10 +37,10 @@ export default function AreasCovered() {
               <span className="text-[#003da5]">Across West Yorkshire</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Based in Pontefract, we cover a wide area across West Yorkshire.
-              Whether you&apos;re in a nearby town or a little further afield, get in
-              touch and we&apos;ll let you know if we can help — most of the time,
-              we can.
+              As your local gas engineer in Pontefract, we cover a wide area
+              across West Yorkshire. Whether you need boiler servicing across
+              West Yorkshire or a full heating installation, get in touch and
+              we&apos;ll let you know if we can help — most of the time, we can.
             </p>
 
             {/* Area tags */}
@@ -99,6 +99,18 @@ export default function AreasCovered() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Embedded Google Map */}
+        <div className="mt-12">
+          <iframe
+            src="https://www.google.com/maps?q=Pontefract+West+Yorkshire&output=embed"
+            width="100%"
+            height="400"
+            style={{ border: 0, borderRadius: "12px" }}
+            loading="lazy"
+            title="Steve Barraclough Gas Engineers – Pontefract, West Yorkshire"
+          />
         </div>
       </div>
     </section>
