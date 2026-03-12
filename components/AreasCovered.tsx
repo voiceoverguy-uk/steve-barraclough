@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const areas = [
   "Pontefract",
   "Castleford",
@@ -71,35 +73,31 @@ export default function AreasCovered() {
             </p>
           </div>
 
-          {/* Map placeholder */}
           <div>
-            <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 aspect-[4/3] bg-gradient-to-br from-[#e8f0fe] to-[#d1e1ff] flex items-center justify-center relative">
-              {/* Stylised map placeholder */}
-              <div className="text-center p-8">
-                <div className="w-20 h-20 bg-[#003da5]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-[#003da5]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-2 border-[#003da5]/30 relative aspect-[4/3]">
+              <Image
+                src="/west-yorkshire-map.png"
+                alt="West Yorkshire coverage map — Wakefield to Pontefract and Castleford"
+                fill
+                className="object-cover object-[40%_55%]"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-[#0d1b2a]/60 to-transparent" />
+              <div className="absolute bottom-3 left-0 right-0 flex justify-between px-4">
+                <span className="inline-flex items-center gap-1 bg-white/90 text-[#0d1b2a] text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
+                  <svg className="w-3 h-3 text-[#003da5]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                   </svg>
-                </div>
-                <p className="text-[#003da5] font-bold text-lg mb-1">West Yorkshire Coverage</p>
-                <p className="text-gray-500 text-sm mb-4">
-                  Google Map coming soon
-                </p>
-                <div className="inline-flex items-center gap-2 bg-[#003da5] text-white text-xs font-medium px-3 py-1.5 rounded-full">
-                  <div className="w-1.5 h-1.5 bg-[#ffce00] rounded-full" />
-                  Pontefract & surrounding areas
-                </div>
+                  Wakefield
+                </span>
+                <span className="inline-flex items-center gap-1 bg-white/90 text-[#0d1b2a] text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
+                  <svg className="w-3 h-3 text-[#003da5]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  </svg>
+                  Pontefract
+                </span>
               </div>
-
-              {/* Decorative elements */}
-              <div className="absolute top-4 right-4 w-3 h-3 bg-[#003da5] rounded-full opacity-40" />
-              <div className="absolute top-8 left-8 w-2 h-2 bg-[#ffce00] rounded-full opacity-60" />
-              <div className="absolute bottom-6 right-8 w-4 h-4 bg-[#003da5] rounded-full opacity-20" />
-              <div className="absolute bottom-10 left-12 w-2 h-2 bg-[#003da5] rounded-full opacity-30" />
             </div>
-            <p className="text-gray-400 text-xs text-center mt-3">
-              A Google Maps embed can be added here — reach out if you'd like it set up.
-            </p>
           </div>
         </div>
       </div>
