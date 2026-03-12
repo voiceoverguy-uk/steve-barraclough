@@ -1,0 +1,236 @@
+PROJECT: Steve Barraclough Gas Engineers website
+GOAL: Build a clean, modern, mobile-friendly single-page website for a local father-and-son gas engineering business based in Pontefract, covering West Yorkshire. The site should feel trustworthy, established, credible, and affordable — not cheap-looking, but also not too premium or corporate. It should be built in a format suitable for deployment on Vercel using Next.js.
+
+TECH STACK:
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Mobile-first responsive design
+- Ready for Vercel deployment
+- Structure code cleanly so a Resend contact form can be added later
+
+BRAND / DESIGN DIRECTION:
+- Use a modern, polished trades-business style
+- Tone: professional, friendly, reliable, local, father-and-son, experienced
+- Avoid anything overly flashy, gimmicky, or too “agency”
+- Colour palette:
+  - Dark navy / near-black for hero background overlays
+  - White for text
+  - Worcester Bosch blue as a main accent colour
+  - Gas Safe yellow as a secondary accent colour
+- Use the yellow subtly for hover underline animations, small highlights, badges, or dividers
+- Use a clean sans-serif typeface with a Century Gothic-like feel
+- Plenty of spacing, rounded cards, subtle shadows, modern buttons
+- Make the whole site look far better than typical outdated local gas engineer websites
+
+BUSINESS DETAILS TO USE:
+- Business name: Steve Barraclough Gas Engineers
+- Location: Pontefract
+- Coverage: Pontefract and across West Yorkshire
+- Gas Safe Registered
+- Gas Safe Number: 99236
+- Worcester Bosch Accredited Installer
+- Father and son team
+- 20+ years of experience
+- Offer free quotes
+- Services include gas, heating, boiler work, and plumbing/heating repairs
+
+SITE STRUCTURE:
+Build a single-page scrolling website with anchor navigation.
+
+SECTIONS REQUIRED:
+1. Sticky Header / Navigation
+2. Hero Section
+3. Trust Badges Strip
+4. About Us
+5. Services
+6. Why Choose Us
+7. Areas Covered
+8. Reviews / Testimonials
+9. FAQ
+10. Contact Section
+11. Footer
+
+HEADER / NAVIGATION:
+- Sticky top navigation bar
+- Business name on the left
+- Nav links on the right:
+  - Home
+  - About
+  - Services
+  - Areas Covered
+  - FAQ
+  - Contact
+- Add a smooth animated underline effect on hover for nav items
+- The underline animation should use Gas Safe yellow
+- On mobile, convert nav into a clean hamburger menu
+- Include a “Call Now” button in the header on desktop if it fits well
+
+HERO SECTION:
+Create a strong hero section with a dark overlay over a background image.
+Use a placeholder hero background image for now, ideally something like:
+- boiler / heating system / engineer at work / subtle blue flame / clean home heating image
+Do NOT use cheesy stock imagery.
+
+Hero content:
+- Main headline:
+  Trusted Gas Safe Engineers in Pontefract & West Yorkshire
+- Subheadline:
+  Father-and-son team with over 20 years of experience in boiler installations, servicing, repairs, plumbing and heating services.
+- CTA buttons:
+  - Call Now
+  - Request a Free Quote
+- Trust highlights below:
+  - Gas Safe Registered
+  - Gas Safe No. 99236
+  - Worcester Bosch Accredited Installer
+  - 20+ Years’ Experience
+  - Father & Son Team
+
+TRUST BADGES STRIP:
+Directly below the hero, add a clean horizontal section with trust badges/cards for:
+- Gas Safe Registered
+- Worcester Bosch Accredited Installer
+- Free Quotes
+- Pontefract & West Yorkshire Coverage
+Use small icons and keep it elegant and modern.
+
+ABOUT US SECTION:
+Create a short, well-written About section using this tone:
+Steve Barraclough Gas Engineers is a trusted father-and-son team based in Pontefract, working across West Yorkshire. With over 20 years of experience, they provide reliable gas, heating and plumbing services with honest advice, quality workmanship, and friendly local service.
+
+Add a small image placeholder beside or above the text for a future real team photo.
+
+SERVICES SECTION:
+Create a modern services grid using cards with icons.
+Include these services:
+- Boiler Installation
+- Boiler Servicing
+- Boiler Repairs
+- Worcester Bosch Boiler Specialists
+- Central Heating Upgrades
+- Radiator Installation & Repair
+- Gas Safety Inspections
+- Landlord Gas Safety Certificates
+- Leak Investigation & Repair
+- General Plumbing Repairs
+- Unvented Cylinder Services
+- Heating System Maintenance
+
+Group them visually in a clean way.
+If helpful, split them into:
+- Gas & Heating
+- Plumbing Services
+
+WHY CHOOSE US SECTION:
+Add a clean icon-based benefits section with these points:
+- Gas Safe Registered
+- Worcester Bosch Accredited Installer
+- Father & Son Team
+- 20+ Years’ Experience
+- Free Quotes
+- Friendly, Reliable Service
+- Pontefract Based
+- Covering West Yorkshire
+
+AREAS COVERED SECTION:
+Include a short intro paragraph and list of locations such as:
+- Pontefract
+- Castleford
+- Wakefield
+- Featherstone
+- Normanton
+- Knottingley
+- Leeds
+- Barnsley
+- Huddersfield
+- Dewsbury
+- Surrounding areas
+
+Optionally include a simple embedded-style placeholder area for a future Google Map showing West Yorkshire coverage.
+Design this section so a real map can easily be added later.
+
+REVIEWS / TESTIMONIALS SECTION:
+Add 3 placeholder testimonial cards for now with believable, simple review content.
+Style them cleanly and professionally.
+Do not make them look fake or over-the-top.
+
+FAQ SECTION:
+Add a simple FAQ accordion with these questions:
+- Are you Gas Safe registered?
+- Do you cover all of West Yorkshire?
+- Do you install Worcester Bosch boilers?
+- Do you offer free quotes?
+- Can you help with boiler repairs and servicing?
+- Do you carry out general plumbing work as well?
+
+CONTACT SECTION:
+Create a modern contact section with:
+- Telephone numbers prominently displayed
+- Click-to-call links
+- A contact form UI ready for Resend integration later
+Fields:
+  - Name
+  - Phone
+  - Email
+  - Postcode
+  - Service Needed
+  - Message
+- Add a service dropdown with:
+  - Boiler Installation
+  - Boiler Service
+  - Boiler Repair
+  - Plumbing Repair
+  - Gas Safety Check
+  - Other
+- Add a note saying:
+  Free quotes available. Call us today to discuss your boiler, heating or plumbing needs.
+
+Use placeholder phone numbers for now if needed, but structure them clearly so they can be swapped later.
+
+FOOTER:
+Include:
+- Steve Barraclough Gas Engineers
+- Pontefract, West Yorkshire
+- Gas Safe Registered No. 99236
+- Worcester Bosch Accredited Installer
+- Quick nav links
+- Telephone numbers
+- Small copyright line
+
+LOGOS / ASSETS:
+Set up the layout so these can be added cleanly:
+- Gas Safe logo with number 99236
+- Worcester Bosch Accredited Installer logo
+Use placeholder image blocks or local placeholder assets for now if files are not yet wired in.
+Make these appear in a tasteful, credible way — not oversized or cluttered.
+
+UX / INTERACTIONS:
+- Smooth scrolling for nav links
+- Hover effects on buttons and cards
+- Yellow animated underline on nav hover
+- Subtle transitions only
+- Keep performance good
+- Make mobile version excellent
+- Include a sticky mobile call button at the bottom if it looks good
+
+SEO / METADATA:
+Add proper metadata for the homepage:
+- Title: Steve Barraclough Gas Engineers | Pontefract Boiler & Heating Experts
+- Meta description: Gas Safe registered father-and-son heating engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing and free quotes.
+- Use a strong H1
+- Basic Open Graph metadata
+- Set up the code cleanly so LocalBusiness / Plumbing / HVAC schema can be added later
+
+COPY STYLE:
+Use clear, natural UK English.
+Do not sound too corporate.
+Do not sound too cheap.
+Make the business feel experienced, honest, approachable, and reliable.
+
+IMPORTANT:
+- Build this as a polished one-page starter site that could realistically be shown to a potential client
+- Make it look complete enough to impress, while keeping the structure simple
+- Use placeholder images where needed, but keep the design premium and realistic
+- Keep code tidy and componentised
+- Ensure it runs properly in Replit and is ready for Vercel deployment

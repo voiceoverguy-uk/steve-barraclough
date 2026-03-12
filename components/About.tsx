@@ -1,0 +1,102 @@
+export default function About() {
+  return (
+    <section id="about" className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Image placeholder */}
+          <div className="relative">
+            <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-[#0d1b2a] to-[#1a2f45] flex items-center justify-center overflow-hidden shadow-2xl">
+              <div className="text-center p-8">
+                <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-12 h-12 text-[#ffce00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                </div>
+                <p className="text-white/60 text-sm">Team photo coming soon</p>
+                <div className="mt-4 flex justify-center gap-3">
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-2 h-2 bg-[#ffce00] rounded-full" />
+                    <span className="text-white/50 text-xs">Steve</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-2 h-2 bg-[#003da5] rounded-full" />
+                    <span className="text-white/50 text-xs">& Son</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Decorative stat cards */}
+            <div className="absolute -bottom-5 -right-5 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
+              <div className="w-10 h-10 bg-[#ffce00]/10 rounded-xl flex items-center justify-center">
+                <svg className="w-5 h-5 text-[#ffce00]" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-[#0d1b2a] text-sm">20+ Years</p>
+                <p className="text-gray-500 text-xs">Experience</p>
+              </div>
+            </div>
+            <div className="absolute -top-5 -left-5 bg-[#003da5] rounded-2xl shadow-xl p-4 flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-white text-sm">Gas Safe</p>
+                <p className="text-white/70 text-xs">No. 99236</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Text content */}
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <div className="h-0.5 w-8 bg-[#ffce00]" />
+              <span className="text-[#003da5] font-semibold text-sm uppercase tracking-wide">
+                About Us
+              </span>
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0d1b2a] mb-6 leading-tight">
+              A Family Business Built on{" "}
+              <span className="text-[#003da5]">Trust & Experience</span>
+            </h2>
+            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              Steve Barraclough Gas Engineers is a trusted father-and-son team
+              based in Pontefract, working across West Yorkshire. With over{" "}
+              <strong className="text-[#0d1b2a]">20 years of experience</strong>,
+              we provide reliable gas, heating and plumbing services with honest
+              advice, quality workmanship, and friendly local service.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              As a family business, we understand the importance of trust. Every
+              job — whether a routine boiler service or a full central heating
+              installation — receives the same dedication and care. We take pride
+              in our work and our reputation in the local community.
+            </p>
+
+            {/* Credentials */}
+            <div className="grid grid-cols-2 gap-3">
+              {[
+                "Gas Safe Registered (No. 99236)",
+                "Worcester Bosch Accredited",
+                "20+ Years' Experience",
+                "Father & Son Team",
+              ].map((item) => (
+                <div key={item} className="flex items-center gap-2.5">
+                  <div className="w-5 h-5 rounded-full bg-[#003da5]/10 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 text-[#003da5]" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-sm font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
