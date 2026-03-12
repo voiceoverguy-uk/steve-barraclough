@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white font-bold">07860 141571</p>
-                  <p className="text-gray-400 text-xs">Main number</p>
+                  <p className="text-gray-400 text-xs">Steve Senior</p>
                 </div>
               </a>
               <a
@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white font-bold">07503 373239</p>
-                  <p className="text-gray-400 text-xs">Mobile</p>
+                  <p className="text-gray-400 text-xs">Steve Junior</p>
                 </div>
               </a>
             </div>
