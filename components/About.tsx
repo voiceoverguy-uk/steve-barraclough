@@ -3,27 +3,14 @@ export default function About() {
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image placeholder */}
+          {/* Team photo */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-3xl bg-gradient-to-br from-[#0d1b2a] to-[#1a2f45] flex items-center justify-center overflow-hidden shadow-2xl">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-12 h-12 text-[#ffce00]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                  </svg>
-                </div>
-                <p className="text-white/60 text-sm">Team photo coming soon</p>
-                <div className="mt-4 flex justify-center gap-3">
-                  <div className="flex items-center gap-1.5">
-                    <div className="w-2 h-2 bg-[#ffce00] rounded-full" />
-                    <span className="text-white/50 text-xs">Steve</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <div className="w-2 h-2 bg-[#003da5] rounded-full" />
-                    <span className="text-white/50 text-xs">& Son</span>
-                  </div>
-                </div>
-              </div>
+            <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/steve-and-son.jpg"
+                alt="Steve and his son – the father-and-son team behind Steve Barraclough Gas Engineers"
+                className="w-full h-full object-cover"
+              />
             </div>
             {/* Decorative stat cards */}
             <div className="absolute -bottom-5 -right-5 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
