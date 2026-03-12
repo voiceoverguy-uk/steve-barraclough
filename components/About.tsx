@@ -7,7 +7,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/steve-and-son.jpg"
+                src="/steve-barraclough-team.jpg"
                 alt="Steve and his son – the father-and-son team behind Steve Barraclough Gas Engineers"
                 className="w-full h-full object-cover"
               />
