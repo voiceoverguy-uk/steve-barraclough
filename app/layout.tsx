@@ -1,20 +1,45 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SITE_URL } from "@/lib/siteConfig";
 
 export const metadata: Metadata = {
-  title: "Steve Barraclough Gas Engineers | Pontefract Boiler & Heating Experts",
+  metadataBase: new URL(SITE_URL),
+  title: "Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts",
   description:
-    "Gas Safe registered father-and-son heating engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing and free quotes.",
+    "Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing, heating and free quotes.",
   keywords:
-    "gas engineers Pontefract, boiler installation West Yorkshire, Gas Safe registered, Worcester Bosch installer, boiler repair, heating engineer",
+    "gas engineers Pontefract, boiler installation West Yorkshire, Gas Safe registered, Worcester Bosch installer, boiler repair, heating engineer, plumber Pontefract",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title:
-      "Steve Barraclough Gas Engineers | Pontefract Boiler & Heating Experts",
+    title: "Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts",
     description:
-      "Gas Safe registered father-and-son heating engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing and free quotes.",
+      "Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire for boiler installs, servicing, repairs, plumbing and heating work.",
     type: "website",
+    url: "/",
     locale: "en_GB",
     siteName: "Steve Barraclough Gas Engineers",
+    images: [
+      {
+        url: "/gas-ring-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Steve Barraclough Gas Engineers – Pontefract, West Yorkshire",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Steve Barraclough Gas Engineers | Pontefract Gas & Heating Experts",
+    description:
+      "Trusted Gas Safe engineers in Pontefract and West Yorkshire for boilers, plumbing and heating services.",
+    images: ["/gas-ring-hero.jpg"],
   },
 };
 

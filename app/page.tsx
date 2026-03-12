@@ -8,12 +8,15 @@ import AreasCovered from "@/components/AreasCovered";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
+import LocalSEOStatement from "@/components/LocalSEOStatement";
 import Footer from "@/components/Footer";
 import MobileCallButton from "@/components/MobileCallButton";
+import SchemaMarkup from "@/components/SchemaMarkup";
 
 export default function Home() {
   return (
     <main>
+      <SchemaMarkup />
       <Header />
       <Hero />
       <TrustBadges />
@@ -24,6 +27,7 @@ export default function Home() {
       <Testimonials />
       <FAQ />
       <Contact />
+      <LocalSEOStatement />
       <Footer />
       <MobileCallButton />
     </main>
