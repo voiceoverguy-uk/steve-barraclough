@@ -1,0 +1,159 @@
+PROJECT: Steve Barraclough Gas Engineers website
+
+GOAL
+Add proper local SEO enhancements to the existing website without redesigning it. The Google Map is already fixed, so leave that alone. Focus on metadata, schema, Open Graph / Twitter cards, sitemap generation, and a small on-page local SEO wording improvement.
+
+IMPORTANT
+- Do NOT redesign the page
+- Do NOT change layout or styling unless needed for metadata/schema support
+- Keep everything Vercel / Next.js friendly
+- Implement this cleanly and properly in the existing codebase
+
+TASKS
+
+1. ADD HOMEPAGE METADATA
+Set the homepage metadata to:
+
+Meta Title:
+Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts
+
+Meta Description:
+Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing, heating and free quotes.
+
+Also add:
+- canonical URL for the homepage
+- robots metadata for index, follow
+- relevant keywords only if the project already supports them, otherwise skip keywords meta tag
+
+Use the live site domain currently in use in the project. If not yet final, keep the current Vercel domain for now and structure it so it can be swapped easily later.
+
+2. ADD OPEN GRAPH + TWITTER CARD METADATA
+Add full social sharing metadata for the homepage.
+
+Use:
+Open Graph title:
+Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts
+
+Open Graph description:
+Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire for boiler installs, servicing, repairs, plumbing and heating work.
+
+Twitter title:
+Steve Barraclough Gas Engineers | Pontefract Gas & Heating Experts
+
+Twitter description:
+Trusted Gas Safe engineers in Pontefract and West Yorkshire for boilers, plumbing and heating services.
+
+Requirements:
+- Set og:type to website
+- Add og:url
+- Add og:site_name
+- Add twitter:card as summary_large_image
+- Use the existing hero image or create a temporary OG image reference if one already exists in /public
+- If no dedicated OG image exists, use the best available existing image and structure it so a future /og-image.jpg can be dropped in easily
+
+3. ADD LOCALBUSINESS SCHEMA
+Add JSON-LD schema to the homepage for LocalBusiness.
+
+Use this business information:
+- name: Steve Barraclough Gas Engineers
+- description: Gas Safe registered father-and-son gas engineers providing boiler installations, servicing, repairs, plumbing and heating services across Pontefract and West Yorkshire.
+- addressLocality: Pontefract
+- addressRegion: West Yorkshire
+- addressCountry: GB
+- areaServed:
+  Pontefract
+  Castleford
+  Wakefield
+  Featherstone
+  Normanton
+  Knottingley
+  Leeds
+  Barnsley
+  Huddersfield
+  Dewsbury
+  Hemsworth
+  South Elmsall
+  Ossett
+  Batley
+  Morley
+  Surrounding areas
+- telephone:
+  07860 141571
+  07503 373239
+- url: homepage URL
+- sameAs: Facebook page URL if already available in the project
+- image: use the best existing image URL available in the site
+- identifier: Gas Safe Reg. No. 99236
+
+Use @type LocalBusiness, unless a more specific relevant type is already being used in the project and supported properly. If appropriate, use:
+"additionalType": ["https://schema.org/Plumber", "https://schema.org/HVACBusiness"]
+
+4. ADD SERVICE SCHEMA
+Add JSON-LD schema for the main services offered.
+
+Create a clean, valid structure using Service schema for at least these services:
+- Boiler Installation
+- Boiler Servicing
+- Boiler Repairs
+- Worcester Bosch Boiler Installation
+- Central Heating Upgrades
+- Radiator Installation and Repair
+- Gas Safety Inspections
+- Landlord Gas Safety Certificates
+- Leak Investigation and Repair
+- General Plumbing Repairs
+- Unvented Cylinder Services
+- Heating System Maintenance
+
+Each service should reference the business as provider and West Yorkshire / Pontefract as area served.
+
+Keep the schema valid, tidy, and useful — no spammy nonsense.
+
+5. ADD FAQ SCHEMA
+Use the existing FAQ content on the homepage and output matching FAQPage JSON-LD schema so Google can understand the questions and answers already visible on the page.
+
+6. ADD XML SITEMAP
+Create a sitemap for the site.
+
+Requirements:
+- Include homepage
+- Include /privacy-policy if it exists
+- Include /terms if it exists
+- Make the sitemap compatible with Next.js / Vercel
+- If the project already uses Next.js metadata routes, use the proper sitemap.ts approach
+- Otherwise create a clean sitemap.xml solution appropriate for the project
+
+Also ensure robots.txt references the sitemap location.
+
+7. ADD ROBOTS.TXT
+Create or update robots.txt with sensible defaults:
+- Allow all major search engines
+- Point to sitemap URL
+- No unnecessary blocking
+
+8. ADD THE LOCAL SEO BONUS SENTENCE ON THE PAGE
+Somewhere natural near the bottom of the homepage, preferably just above the footer or near the contact section, add this sentence:
+
+Steve Barraclough Gas Engineers are Gas Safe registered heating engineers based in Pontefract, serving customers across Wakefield, Castleford, Featherstone and the wider West Yorkshire area.
+
+Make sure it looks natural in the design and not like keyword stuffing.
+
+9. SMALL WORDING TWEAK FOR LOCAL SEO
+Update the Areas Covered paragraph so it naturally includes:
+- gas engineer in Pontefract
+- boiler servicing across West Yorkshire
+
+Suggested wording:
+As your local gas engineer in Pontefract, we cover a wide area across West Yorkshire. Whether you need boiler servicing across West Yorkshire or a full heating installation, get in touch and we'll let you know if we can help — most of the time, we can.
+
+Only make this change if it has not already been added.
+
+10. KEEP THINGS CLEAN
+- Do not duplicate schema
+- Do not create invalid JSON-LD
+- Keep metadata centralised and easy to edit later
+- Make sure everything works in production on Vercel
+- Keep code clean and organised
+
+DELIVERABLE
+Implement all of the above directly into the project so the site is more search-engine friendly, social-share ready, and locally optimised without changing the visual design.
