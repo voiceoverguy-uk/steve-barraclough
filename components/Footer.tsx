@@ -125,7 +125,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-gray-500 text-xs">
+          <p className="text-gray-500 text-xs" suppressHydrationWarning>
             &copy; {new Date().getFullYear()} Steve Barraclough Gas Engineers. All rights reserved.
           </p>
           <p className="text-gray-600 text-xs">
