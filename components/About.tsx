@@ -47,7 +47,7 @@ export default function About() {
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0d1b2a] mb-6 leading-tight">
               A Family Business Built on{" "}
-              <span className="text-[#003da5]">Trust & Experience</span>
+              <span className="text-[#003da5] whitespace-nowrap">Trust & Experience</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Steve Barraclough Gas Engineers is a trusted father-and-son team
