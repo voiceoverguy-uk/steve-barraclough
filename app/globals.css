@@ -10,6 +10,18 @@
   --font-sans: "Inter", "Segoe UI", system-ui, sans-serif;
 }
 
+:root {
+  --pitch-navy: #0d1b2a;
+  --pitch-dark-slate: #1e293b;
+  --pitch-amber: #d4a017;
+  --pitch-amber-light: #f0d060;
+  --pitch-off-white: #f8f6f1;
+  --pitch-warm-gray: #e8e5df;
+  --pitch-blue: #003da5;
+  --pitch-font-display: "Montserrat", sans-serif;
+  --pitch-font-body: "Inter", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
