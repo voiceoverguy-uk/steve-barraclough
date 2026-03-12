@@ -1,0 +1,162 @@
+Update the website proposal pitch deck to improve clarity, persuasion, and reduce the number of slides.
+
+Make the following changes:
+
+STRUCTURE
+Reduce the pitch deck from 11 slides to 8 slides with the following order:
+	1.	Cover Slide
+	2.	The Problem
+	3.	The Opportunity
+	4.	Key Features
+	5.	Local SEO
+	6.	Customer Reviews
+	7.	Pricing
+	8.	Final Call to Action
+
+REMOVE these slides completely:
+	•	Domain Name Options
+	•	Hosting & Ongoing Support
+	•	Introducing Your Website (this content should be merged into other slides)
+
+WORDING IMPROVEMENTS
+
+Slide 1 — Cover
+Change headline to:
+
+“A Website Designed to Bring You More Local Jobs”
+
+Subtext:
+
+“A professional website for Steve Barraclough Gas Engineers that builds trust, showcases your services, and helps local customers find you online.”
+
+Slide 2 — The Problem
+Headline:
+
+“Most Customers Google Before They Call”
+
+Body text:
+
+“When people need a gas engineer, the first thing they do is search on Google.
+Without a professional website, potential customers often choose competitors who appear more established online.”
+
+Keep the statistics but simplify wording.
+
+Slide 3 — The Opportunity
+Headline:
+
+“Your Website Works 24/7”
+
+Body text:
+
+“A well-designed website isn’t just an online brochure — it’s a 24/7 salesperson that builds trust before the phone even rings.”
+
+Feature points:
+
+Build Trust
+Show credentials, Gas Safe registration, and customer reviews instantly.
+
+Generate Leads
+Turn website visitors into phone calls and quote requests.
+
+Stand Out
+Look more professional than competitors who rely only on Facebook.
+
+Slide 4 — Key Features
+Simplify descriptions.
+
+Example improvements:
+
+Mobile-First Design
+“Looks great on phones, tablets, and desktop — where most customers search.”
+
+Gas Safe Badge
+“Prominent display of your Gas Safe registration to build instant trust.”
+
+Quote Request Form
+“Customers can request quotes directly from the website.”
+
+Areas Covered
+“Interactive map showing the towns and areas you serve.”
+
+Full Service List
+“Clear breakdown of gas, heating, and plumbing services.”
+
+Slide 5 — Local SEO
+Headline:
+
+“Built to Rank on Google Locally”
+
+Body text:
+
+“Every page is designed to help your business appear when people search for gas engineers in your area.”
+
+Bullet points:
+
+Optimised for searches like “gas engineer Pontefract”
+Local service areas across West Yorkshire
+Trust signals that convert visitors into callers
+
+Slide 6 — Customer Reviews
+Keep the testimonials but simplify the text slightly so they feel natural and readable.
+
+Add line underneath:
+
+“Customer reviews displayed clearly help build confidence and encourage new enquiries.”
+
+Slide 7 — Pricing
+Update pricing.
+
+Section 1:
+
+Website Design & Setup
+£850 one-time payment
+
+Includes:
+
+Custom website design
+Mobile responsive layout
+Local Google SEO setup
+
+Section 2:
+
+Hosting & Support
+£15 per month
+
+Includes:
+
+Fast secure hosting
+Updates and small changes when needed
+Domain management
+
+Add the following line under pricing:
+
+“Most web agencies charge £1500–£3000 for a site like this.”
+
+Add this reassurance line:
+
+“If you ever decide the website isn’t useful, you can cancel hosting anytime.”
+
+Slide 8 — Final Slide
+
+Headline:
+
+“Ready to Grow Your Business?”
+
+Body text:
+
+“Let’s build a website that works as hard as you do.”
+
+Add closing line:
+
+“One extra boiler job easily pays for the entire website.”
+
+Add final reassurance:
+
+“If you’re happy to go ahead, the site can be live within 7 days.”
+
+Keep contact details visible.
+
+DESIGN
+
+Maintain the current colour scheme, layout, and styling.
+Ensure slides remain visually clean, simple, and easy to present.
