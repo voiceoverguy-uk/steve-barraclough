@@ -658,7 +658,7 @@ function Slide8() {
               </svg>
             </div>
             <div>
-              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Connect your Domain Name</h4>
+              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Purchase your unique domain</h4>
               <p style={{ fontSize: "1.1vw", color: "#666" }}>Your own professional web address included</p>
             </div>
           </div>
@@ -688,7 +688,7 @@ function Slide9() {
           <div className="flex items-center gap-2 mb-4">
             <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
             <span style={{ color: BLUE_ACCENT, fontSize: "1.1vw", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.1em" }}>
-              Your Online Identity
+              Online Identity
             </span>
           </div>
           <h2
@@ -703,12 +703,9 @@ function Slide9() {
           >
             Domain <span style={{ color: BLUE_ACCENT }}>Name</span> Options
           </h2>
-          <p style={{ fontSize: "1.4vw", color: "#555", lineHeight: 1.6, marginBottom: "3vh" }}>
-            Secure your professional web address before going live. Choose the option that best suits your needs.
+          <p style={{ fontSize: "1.4vw", color: "#555", lineHeight: 1.6 }}>
+            Secure your professional web address before going live. Choose the option that best suits your needs. We suggest <strong style={{ color: NAVY }}>.co.uk</strong> — however we have the chance to secure <strong style={{ color: NAVY }}>.com</strong> too, should you want to use it in the future.
           </p>
-          <div className="rounded-xl overflow-hidden" style={{ border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
-            <img src="/domain-secured.png" alt="Domain registrar showing stevebarraclough.co.uk and stevebarraclough.com availability" style={{ width: "100%", height: "auto", display: "block" }} />
-          </div>
         </div>
         <div className="flex flex-col justify-center gap-4" style={{ width: "50%", paddingLeft: "3vw" }}>
           <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
