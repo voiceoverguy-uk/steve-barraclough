@@ -647,7 +647,7 @@ function Slide8() {
               </svg>
             </div>
             <div>
-              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Regular Updates</h4>
+              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Updates</h4>
               <p style={{ fontSize: "1.1vw", color: "#666" }}>Security patches, content updates, and ongoing improvements</p>
             </div>
           </div>
@@ -658,7 +658,7 @@ function Slide8() {
               </svg>
             </div>
             <div>
-              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Domain Name</h4>
+              <h4 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: NAVY }}>Connect your Domain Name</h4>
               <p style={{ fontSize: "1.1vw", color: "#666" }}>Your own professional web address included</p>
             </div>
           </div>
@@ -708,9 +708,9 @@ function Slide9() {
         </p>
         <div className="flex gap-6 justify-center" style={{ width: "100%" }}>
           <div className="rounded-xl text-center flex flex-col" style={{ backgroundColor: "#ffffff", padding: "4vh 3vw", width: "35%", border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 600, color: BLUE_ACCENT, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1vh" }}>One-Off Build</p>
+            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 600, color: BLUE_ACCENT, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1vh" }}>Initial Build</p>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "4vw", fontWeight: 800, color: NAVY, lineHeight: 1 }}>
-              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>XXX
+              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>550<span style={{ fontSize: "1.4vw", fontWeight: 600 }}>+vat</span>
             </p>
             <p style={{ fontSize: "1.1vw", color: "#888", marginTop: "1vh", marginBottom: "2vh" }}>one-time payment</p>
             <div className="flex flex-col gap-2 text-left">
@@ -734,13 +734,10 @@ function Slide9() {
               </div>
             </div>
           </div>
-          <div className="rounded-xl text-center flex flex-col relative" style={{ backgroundColor: NAVY, padding: "4vh 3vw", width: "35%", boxShadow: "0 8px 40px rgba(13,27,42,0.3)" }}>
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full" style={{ backgroundColor: AMBER, padding: "0.4vh 1.5vw" }}>
-              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "0.9vw", fontWeight: 700, color: NAVY }}>RECOMMENDED</span>
-            </div>
+          <div className="rounded-xl text-center flex flex-col" style={{ backgroundColor: NAVY, padding: "4vh 3vw", width: "35%", boxShadow: "0 8px 40px rgba(13,27,42,0.3)" }}>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 600, color: AMBER, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1vh" }}>Monthly Hosting</p>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "4vw", fontWeight: 800, color: "#ffffff", lineHeight: 1 }}>
-              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>XX
+              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>15<span style={{ fontSize: "1.4vw", fontWeight: 600 }}>+vat</span>
             </p>
             <p style={{ fontSize: "1.1vw", color: "#ffffff88", marginTop: "1vh", marginBottom: "2vh" }}>per month</p>
             <div className="flex flex-col gap-2 text-left">
@@ -748,19 +745,19 @@ function Slide9() {
                 <svg style={{ width: "1.1vw", height: "1.1vw", color: AMBER, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Fast, secure hosting</span>
+                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Fast Secure Hosting</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg style={{ width: "1.1vw", height: "1.1vw", color: AMBER, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Domain included</span>
+                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Updates and support</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg style={{ width: "1.1vw", height: "1.1vw", color: AMBER, flexShrink: 0 }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Updates &amp; support</span>
+                <span style={{ fontSize: "1.1vw", color: "#ffffffcc" }}>Domain Hosted</span>
               </div>
             </div>
           </div>
@@ -804,7 +801,7 @@ function Slide10() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
               </svg>
             </div>
-            <p style={{ fontSize: "1.2vw", color: "#ffffffcc", fontWeight: 600 }}>your@email.com</p>
+            <p style={{ fontSize: "1.2vw", color: "#ffffffcc", fontWeight: 600 }}>guy@voiceoverguy.co.uk</p>
             <p style={{ fontSize: "1vw", color: "#ffffff66" }}>Email</p>
           </div>
           <div className="text-center">
@@ -813,7 +810,7 @@ function Slide10() {
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
               </svg>
             </div>
-            <p style={{ fontSize: "1.2vw", color: "#ffffffcc", fontWeight: 600 }}>07XXX XXXXXX</p>
+            <p style={{ fontSize: "1.2vw", color: "#ffffffcc", fontWeight: 600 }}>07973 350178</p>
             <p style={{ fontSize: "1vw", color: "#ffffff66" }}>Phone</p>
           </div>
         </div>
