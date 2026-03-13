@@ -392,11 +392,11 @@ function Slide5() {
               <svg style={{ width: "1.2vw", height: "1.2vw", color: AMBER }} fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
             <p style={{ fontSize: "1.15vw", color: "#555", lineHeight: 1.5, flex: 1, fontStyle: "italic" }}>
-              &ldquo;Turned up on time, had our boiler sorted the same day. Brilliant from start to finish.&rdquo;
+              &ldquo;Having heard of their work from a friend we used Steve and Steve and were not disappointed. True professionals from start to finish.&rdquo;
             </p>
             <div style={{ borderTop: "1px solid #e5e2db", paddingTop: "1.5vh", marginTop: "1.5vh" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>Sarah M.</p>
-              <p style={{ fontSize: "1vw", color: "#888" }}>Pontefract</p>
+              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>H. Mobley</p>
+              <p style={{ fontSize: "1vw", color: "#888" }}>Wakefield</p>
             </div>
           </div>
           <div className="rounded-xl flex flex-col" style={{ backgroundColor: "#ffffffee", padding: "3vh 2vw", border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.06)" }}>
