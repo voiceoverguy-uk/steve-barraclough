@@ -331,15 +331,6 @@ function Slide4() {
             <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Full Service List</h3>
             <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Clear breakdown of gas, heating, and plumbing services</p>
           </div>
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${AMBER}15` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: AMBER }} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Customer Reviews</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Real testimonials displayed to build confidence with new visitors</p>
-          </div>
         </div>
       </div>
     </SlideWrapper>
@@ -521,7 +512,7 @@ function Slide6() {
         </div>
         <div className="text-center mt-4">
           <p style={{ fontSize: "1.2vw", color: "#777" }}>
-            Customer reviews displayed clearly help build confidence and encourage new enquiries
+            Customer reviews displayed clearly help build confidence and encourage new enquiries.
           </p>
         </div>
       </div>
@@ -560,7 +551,7 @@ function Slide7() {
           <div className="rounded-xl text-center flex flex-col" style={{ backgroundColor: "#ffffff", padding: "4vh 3vw", width: "35%", border: "1px solid #e0ddd6", boxShadow: "0 4px 20px rgba(0,0,0,0.04)" }}>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 600, color: BLUE_ACCENT, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1vh" }}>Website Design &amp; Setup</p>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "4vw", fontWeight: 800, color: NAVY, lineHeight: 1 }}>
-              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>850<span style={{ fontSize: "1.4vw", fontWeight: 600 }}>+vat</span>
+              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>850
             </p>
             <p style={{ fontSize: "1.1vw", color: "#888", marginTop: "1vh", marginBottom: "2vh" }}>one-time payment</p>
             <div className="flex flex-col gap-2 text-left">
@@ -587,7 +578,7 @@ function Slide7() {
           <div className="rounded-xl text-center flex flex-col" style={{ backgroundColor: NAVY, padding: "4vh 3vw", width: "35%", boxShadow: "0 8px 40px rgba(13,27,42,0.3)" }}>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 600, color: AMBER, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: "1vh" }}>Hosting &amp; Support</p>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "4vw", fontWeight: 800, color: "#ffffff", lineHeight: 1 }}>
-              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>15<span style={{ fontSize: "1.4vw", fontWeight: 600 }}>+vat</span>
+              <span style={{ fontSize: "2vw", verticalAlign: "top" }}>&pound;</span>15
             </p>
             <p style={{ fontSize: "1.1vw", color: "#ffffff88", marginTop: "1vh", marginBottom: "2vh" }}>per month</p>
             <div className="flex flex-col gap-2 text-left">
