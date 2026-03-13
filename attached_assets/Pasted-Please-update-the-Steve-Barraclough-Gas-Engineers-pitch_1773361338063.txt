@@ -1,0 +1,217 @@
+Please update the Steve Barraclough Gas Engineers pitch deck with the following changes.
+
+GOAL:
+Keep the deck clean, persuasive, and simple for a tradesman audience. Remove anything too “agency” or overly technical. Make it feel direct, trustworthy, and focused on one thing: winning more local jobs.
+
+IMPORTANT CHANGES:
+1. REMOVE the current “Key Features” slide completely.
+2. ADD a new slide called “What Happens Next” in its place or near the end of the deck, before the final call-to-action slide.
+3. Keep the deck at 8 slides total.
+4. Update wording across the deck to sound a little more natural, persuasive, and less generic.
+
+REVISED 8-SLIDE STRUCTURE:
+1. Hero / Website Proposal
+2. The Problem
+3. The Opportunity
+4. Local SEO
+5. Customer Reviews / Social Proof
+6. Pricing
+7. What Happens Next
+8. Final CTA
+
+COPY CHANGES BY SLIDE:
+
+SLIDE 1 — HERO
+Keep the overall design and style, but refine the body copy to:
+
+Headline:
+A Website Designed to Bring You More Local Jobs
+
+Body:
+A professional website for Steve Barraclough Gas Engineers that builds trust, shows customers you're the one to call, and helps local customers find you online.
+
+Keep the Gas Safe Registered and Worcester Bosch Accredited trust badges.
+
+SLIDE 2 — THE PROBLEM
+Keep the same concept and layout, but improve the wording.
+
+Headline:
+Most Customers Google Before They Call
+
+Body:
+When people need a gas engineer, the first thing they do is search on Google. Without a professional website, potential customers often choose a competitor who looks more established online.
+
+Bullets:
+97% of consumers search online for local services
+75% judge a business by its website
+Competitors with better websites are winning the call
+
+SLIDE 3 — THE OPPORTUNITY
+Keep the 3-card layout, but improve the main copy.
+
+Section label:
+THE OPPORTUNITY
+
+Headline:
+Your Website Works Even When You’re on a Job
+
+Body:
+A well-designed website is not just an online brochure — it helps build trust, answers questions, and turns visitors into real enquiries while you're busy working.
+
+Card 1:
+Build Trust
+Show credentials, Gas Safe registration, and customer reviews instantly
+
+Card 2:
+Generate Leads
+Turn website visitors into phone calls and quote requests
+
+Card 3:
+Stand Out
+Look more professional than competitors who rely only on Facebook
+
+SLIDE 4 — LOCAL SEO
+Keep the strong blue/gold style and the search/results/phone concept.
+
+Section label:
+LOCAL SEO
+
+Headline:
+Built to Rank on Google Locally
+
+Body:
+Every page is designed to help your business appear when people search for gas engineers in your area.
+
+Bullets:
+Show up for searches like “Gas Engineer Pontefract”
+Target local service areas across West Yorkshire
+Build trust signals that turn visitors into callers
+
+Right-hand boxes:
+Google Search
+“gas engineer near me”
+
+Local Results
+Pontefract, Castleford, Wakefield & more
+
+Phone Rings
+Customer finds you and calls
+
+SLIDE 5 — CUSTOMER REVIEWS
+Keep the visual concept and testimonial cards, but tighten supporting text.
+
+Section label:
+SOCIAL PROOF
+
+Headline:
+Customer Reviews
+
+Bottom caption:
+People trust businesses with real reviews.
+
+Keep 3 review cards and locations.
+
+SLIDE 6 — PRICING
+Keep this slide strong and simple.
+
+Section label:
+INVESTMENT
+
+Headline:
+Simple, Transparent Pricing
+
+Subheading:
+Everything you need to get online and stay online
+
+Left card:
+WEBSITE DESIGN & SETUP
+£850
+one-time payment
+
+Bullets:
+Custom website design
+Mobile responsive layout
+Local Google SEO setup
+
+Right card:
+HOSTING & SUPPORT
+£15
+per month
+
+Bullets:
+Fast secure hosting
+Updates and small changes when needed
+Domain management
+
+Bottom line:
+Most agencies charge £1500–£3000 for a site like this. If you ever decide the website isn’t useful, you can cancel hosting anytime.
+
+SLIDE 7 — WHAT HAPPENS NEXT
+Create a brand-new slide with the same premium style as the rest of the deck.
+This slide should make the process feel easy and low-stress.
+
+Section label:
+NEXT STEPS
+
+Headline:
+What Happens Next
+
+Short intro:
+A simple, straightforward process from start to finish.
+
+Use 4 clean step cards or a horizontal timeline:
+
+Step 1
+We gather your details
+Services, areas covered, contact info, photos, and logos
+
+Step 2
+I design the website
+A clean, professional site built around your business
+
+Step 3
+You review and approve it
+Any small changes can be made before launch
+
+Step 4
+Your site goes live
+Ready to help local customers find and contact you
+
+Add a reassuring line at the bottom:
+From start to finish, the whole process can be simple and stress-free.
+
+SLIDE 8 — FINAL CTA
+Keep this slide as the closer, but strengthen the wording.
+
+Section label:
+LET’S GET STARTED
+
+Headline:
+Ready to Grow Your Business?
+
+Body:
+Let’s get your business showing up when people search.
+
+Support line:
+One extra boiler job could easily pay for the entire website.
+
+Keep email and phone details shown clearly.
+
+Bottom highlighted line:
+If you're happy to go ahead, the site can be live within 7 days.
+
+DESIGN NOTES:
+- Keep the existing premium dark blue / gold / white style
+- Maintain strong contrast and large bold headings
+- Keep the deck looking clean, modern, and trustworthy
+- Avoid overcrowding slides with too much text
+- Make sure all slides remain visually balanced
+- Keep navigation and slide numbering as-is
+- Ensure the new “What Happens Next” slide feels fully designed, not like a filler slide
+
+TONE:
+Confident, clear, friendly, and practical.
+This is a pitch to a real local tradesman, not a corporate boardroom.
+
+OUTPUT:
+Please update the deck directly with these wording and slide structure changes.
