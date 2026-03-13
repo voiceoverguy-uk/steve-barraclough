@@ -408,10 +408,10 @@ function Slide5() {
               <svg style={{ width: "1.2vw", height: "1.2vw", color: AMBER }} fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
             <p style={{ fontSize: "1.15vw", color: "#555", lineHeight: 1.5, flex: 1, fontStyle: "italic" }}>
-              &ldquo;Couldn&apos;t be happier with our new Worcester Bosch boiler. Neat, professional work.&rdquo;
+              &ldquo;Really happy with the service, boiler has been spot on and it works great. Wish I&apos;d swapped it to the new Worcester years ago.&rdquo;
             </p>
             <div style={{ borderTop: "1px solid #e5e2db", paddingTop: "1.5vh", marginTop: "1.5vh" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>James T.</p>
+              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>G. Harris</p>
               <p style={{ fontSize: "1vw", color: "#888" }}>Wakefield</p>
             </div>
           </div>
@@ -424,11 +424,11 @@ function Slide5() {
               <svg style={{ width: "1.2vw", height: "1.2vw", color: AMBER }} fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
             </div>
             <p style={{ fontSize: "1.15vw", color: "#555", lineHeight: 1.5, flex: 1, fontStyle: "italic" }}>
-              &ldquo;Steve was incredibly helpful with my landlord gas safety cert &mdash; booked me in quickly and sorted everything.&rdquo;
+              &ldquo;They turned up on time and didn&apos;t stop all day. The new boiler has made such a difference. They tidied away after and hardly stopped for a cup of tea.&rdquo;
             </p>
             <div style={{ borderTop: "1px solid #e5e2db", paddingTop: "1.5vh", marginTop: "1.5vh" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>Linda H.</p>
-              <p style={{ fontSize: "1vw", color: "#888" }}>Castleford</p>
+              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.1vw", fontWeight: 700, color: NAVY }}>D. Sander</p>
+              <p style={{ fontSize: "1vw", color: "#888" }}>Snaith</p>
             </div>
           </div>
         </div>
