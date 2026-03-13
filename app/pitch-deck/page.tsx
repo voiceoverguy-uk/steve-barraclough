@@ -625,7 +625,7 @@ function Slide8() {
           Ready to Grow <span style={{ color: AMBER }}>Your Business?</span>
         </h2>
         <p style={{ fontSize: "1.5vw", color: "#ffffffaa", lineHeight: 1.6, maxWidth: "50vw", marginBottom: "2vh" }}>
-          Let&apos;s get your business showing up when people search.
+          Let&apos;s get your business showing up when people search for a gas engineer.
         </p>
         <p style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 600, marginBottom: "4vh" }}>
           One extra boiler job easily pays for the entire website.
