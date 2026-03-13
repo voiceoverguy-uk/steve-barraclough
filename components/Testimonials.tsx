@@ -1,24 +1,24 @@
 const testimonials = [
   {
-    name: "Sarah M.",
-    location: "Pontefract",
-    rating: 5,
-    text: "Turned up on time, had our boiler sorted the same day, and were brilliant from start to finish. Fair pricing, no fuss — would absolutely recommend.",
-    service: "Boiler Repair",
-  },
-  {
-    name: "James T.",
+    name: "H. Mobley",
     location: "Wakefield",
     rating: 5,
-    text: "Couldn't be happier with our new Worcester Bosch boiler. Neat, professional work, left the place spotless, and the extended warranty is a real bonus.",
+    text: "Having heard of their work from a friend we used Steve and Steve and were not disappointed. True professionals from start to finish.",
     service: "Boiler Installation",
   },
   {
-    name: "Linda H.",
-    location: "Castleford",
+    name: "G. Harris",
+    location: "Wakefield",
     rating: 5,
-    text: "Steve was incredibly helpful with my landlord gas safety cert — booked me in quickly, turned up on time and sorted the paperwork straight away.",
-    service: "Landlord Gas Safety Certificate",
+    text: "Really happy with the service, boiler has been spot on and it works great. Wish I'd swapped it to the new Worcester years ago.",
+    service: "Boiler Installation",
+  },
+  {
+    name: "D. Sander",
+    location: "Snaith",
+    rating: 5,
+    text: "They turned up on time and didn't stop all day. The new boiler has made such a difference. They tidied away after and hardly stopped for a cup of tea.",
+    service: "Boiler Installation",
   },
 ];
 
