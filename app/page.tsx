@@ -10,7 +10,6 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import LocalSEOStatement from "@/components/LocalSEOStatement";
 import Footer from "@/components/Footer";
-import MobileCallButton from "@/components/MobileCallButton";
 import SchemaMarkup from "@/components/SchemaMarkup";
 
 export default function Home() {
@@ -29,7 +28,6 @@ export default function Home() {
       <Contact />
       <LocalSEOStatement />
       <Footer />
-      <MobileCallButton />
     </main>
   );
 }
