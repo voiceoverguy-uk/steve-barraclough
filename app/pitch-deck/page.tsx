@@ -84,7 +84,7 @@ function Slide1() {
             marginBottom: "4vh",
           }}
         >
-          A professional website for Steve Barraclough Gas Engineers that builds trust, showcases your services, and helps local customers find you online.
+          A professional website for Steve Barraclough Gas Engineers that builds trust, shows customers you&apos;re the one to call, and helps local customers find you online.
         </p>
         <div className="flex items-center gap-4">
           <div
@@ -138,8 +138,7 @@ function Slide2() {
             Before They Call
           </h2>
           <p style={{ fontSize: "1.5vw", color: "#555", lineHeight: 1.6, marginBottom: "3vh" }}>
-            When people need a gas engineer, the first thing they do is search on Google.
-            Without a professional website, potential customers often choose competitors who appear more established online.
+            When people need a gas engineer, the first thing they do is search on Google. Without a professional website, potential customers often choose a competitor who looks more established online.
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex items-start gap-3">
@@ -158,7 +157,7 @@ function Slide2() {
               <div className="rounded-full flex-shrink-0 flex items-center justify-center" style={{ width: "1.8vw", height: "1.8vw", backgroundColor: `${AMBER}20` }}>
                 <span style={{ color: AMBER, fontSize: "1vw", fontWeight: 700 }}>3</span>
               </div>
-              <span style={{ fontSize: "1.3vw", color: "#444", fontWeight: 500 }}>Competitors with websites are winning your jobs</span>
+              <span style={{ fontSize: "1.3vw", color: "#444", fontWeight: 500 }}>Competitors with better websites are winning the call</span>
             </div>
           </div>
         </div>
@@ -219,17 +218,17 @@ function Slide3() {
         <h2
           style={{
             fontFamily: "'Montserrat', sans-serif",
-            fontSize: "3.8vw",
+            fontSize: "3.5vw",
             fontWeight: 800,
             color: "#ffffff",
             lineHeight: 1.15,
             marginBottom: "4vh",
           }}
         >
-          Your Website Works <span style={{ color: AMBER }}>24/7</span>
+          Your Website Works Even When <span style={{ color: AMBER }}>You&apos;re on a Job</span>
         </h2>
         <p style={{ fontSize: "1.5vw", color: "#ffffffaa", lineHeight: 1.6, maxWidth: "60vw", marginBottom: "5vh" }}>
-          A well-designed website isn&apos;t just an online brochure &mdash; it&apos;s a 24/7 salesperson that builds trust before the phone even rings.
+          A well-designed website is not just an online brochure &mdash; it helps build trust, answers questions, and turns visitors into real enquiries while you&apos;re busy working.
         </p>
         <div className="flex gap-6" style={{ width: "100%", justifyContent: "center" }}>
           <div className="rounded-xl text-center" style={{ backgroundColor: `${BLUE_ACCENT}30`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}40` }}>
@@ -261,83 +260,6 @@ function Slide3() {
 }
 
 function Slide4() {
-  return (
-    <SlideWrapper bg="#f5f3ee">
-      <div className="relative flex flex-col h-full" style={{ padding: "5% 7%" }}>
-        <div className="text-center mb-6">
-          <div className="flex items-center justify-center gap-2 mb-3">
-            <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
-            <span style={{ color: BLUE_ACCENT, fontSize: "1.1vw", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.1em" }}>
-              What&apos;s Included
-            </span>
-            <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
-          </div>
-          <h2
-            style={{
-              fontFamily: "'Montserrat', sans-serif",
-              fontSize: "3.2vw",
-              fontWeight: 800,
-              color: NAVY,
-              lineHeight: 1.15,
-            }}
-          >
-            Key <span style={{ color: BLUE_ACCENT }}>Features</span>
-          </h2>
-        </div>
-        <div className="grid grid-cols-3 gap-4 flex-1">
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${BLUE_ACCENT}10` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: BLUE_ACCENT }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Mobile-First Design</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Looks great on phones, tablets, and desktop &mdash; where most customers search</p>
-          </div>
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${AMBER}15` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: AMBER }} fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Gas Safe Badge</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Prominent display of your Gas Safe registration to build instant trust</p>
-          </div>
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${BLUE_ACCENT}10` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: BLUE_ACCENT }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 3.75H6.912a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Quote Request Form</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Customers can request quotes directly from the website</p>
-          </div>
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${AMBER}15` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: AMBER }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Areas Covered</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Interactive map showing the towns and areas you serve</p>
-          </div>
-          <div className="rounded-xl" style={{ backgroundColor: "#ffffff", padding: "3vh 2vw", border: "1px solid #e0ddd6" }}>
-            <div className="rounded-lg flex items-center justify-center mb-3" style={{ width: "3vw", height: "3vw", backgroundColor: `${BLUE_ACCENT}10` }}>
-              <svg style={{ width: "1.5vw", height: "1.5vw", color: BLUE_ACCENT }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15a2.25 2.25 0 011.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C7.691 4.04 6.75 5.19 6.75 6.514v7.486m4.6-10.164c.376.023.75.05 1.124.08 1.535.124 2.476 1.274 2.476 2.598v4.966M6.75 14v4.5a2.25 2.25 0 002.25 2.25h6a2.25 2.25 0 002.25-2.25V18M6.75 14H4.5a2.25 2.25 0 00-2.25 2.25v1.5a2.25 2.25 0 002.25 2.25h2.25M6.75 14h6" />
-              </svg>
-            </div>
-            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.4vw", fontWeight: 700, color: NAVY, marginBottom: "1vh" }}>Full Service List</h3>
-            <p style={{ fontSize: "1.1vw", color: "#666", lineHeight: 1.5 }}>Clear breakdown of gas, heating, and plumbing services</p>
-          </div>
-        </div>
-      </div>
-    </SlideWrapper>
-  );
-}
-
-function Slide5() {
   return (
     <SlideWrapper bg={NAVY}>
       <div className="absolute inset-0" style={{ background: `linear-gradient(135deg, ${NAVY} 0%, ${DARK_SLATE} 100%)` }} />
@@ -371,7 +293,7 @@ function Slide5() {
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               </div>
-              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Optimised for searches like &ldquo;gas engineer Pontefract&rdquo;</span>
+              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Show up for searches like &ldquo;Gas Engineer Pontefract&rdquo;</span>
             </div>
             <div className="flex items-start gap-3">
               <div className="rounded-full flex-shrink-0 flex items-center justify-center" style={{ width: "1.8vw", height: "1.8vw", backgroundColor: `${AMBER}25` }}>
@@ -379,7 +301,7 @@ function Slide5() {
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               </div>
-              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Local service areas across West Yorkshire</span>
+              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Target local service areas across West Yorkshire</span>
             </div>
             <div className="flex items-start gap-3">
               <div className="rounded-full flex-shrink-0 flex items-center justify-center" style={{ width: "1.8vw", height: "1.8vw", backgroundColor: `${AMBER}25` }}>
@@ -387,7 +309,7 @@ function Slide5() {
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
               </div>
-              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Trust signals that convert visitors into callers</span>
+              <span style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 500 }}>Build trust signals that turn visitors into callers</span>
             </div>
           </div>
         </div>
@@ -429,7 +351,7 @@ function Slide5() {
   );
 }
 
-function Slide6() {
+function Slide5() {
   return (
     <SlideWrapper bg={OFF_WHITE}>
       <img
@@ -512,7 +434,7 @@ function Slide6() {
         </div>
         <div className="text-center mt-4">
           <p style={{ fontSize: "1.2vw", color: "#777" }}>
-            Customer reviews displayed clearly help build confidence and encourage new enquiries.
+            People trust businesses with real reviews.
           </p>
         </div>
       </div>
@@ -520,7 +442,7 @@ function Slide6() {
   );
 }
 
-function Slide7() {
+function Slide6() {
   return (
     <SlideWrapper bg="#f5f3ee">
       <div className="relative flex flex-col justify-center items-center h-full" style={{ padding: "5% 10%" }}>
@@ -604,10 +526,76 @@ function Slide7() {
           </div>
         </div>
         <p style={{ fontSize: "1.15vw", color: "#888", textAlign: "center", marginTop: "3vh" }}>
-          Most web agencies charge &pound;1500&ndash;&pound;3000 for a site like this. &nbsp;
-          <span style={{ color: "#666", fontWeight: 500 }}>If you ever decide the website isn&apos;t useful, you can cancel hosting anytime.</span>
+          Most agencies charge &pound;1500&ndash;&pound;3000 for a site like this. If you ever decide the website isn&apos;t useful, you can cancel hosting anytime.
         </p>
       </div>
+    </SlideWrapper>
+  );
+}
+
+function Slide7() {
+  return (
+    <SlideWrapper bg={NAVY}>
+      <div className="absolute inset-0" style={{ background: `linear-gradient(135deg, ${NAVY} 0%, ${DARK_SLATE} 100%)` }} />
+      <div className="relative flex flex-col justify-center items-center h-full" style={{ padding: "5% 7%" }}>
+        <div className="flex items-center gap-2 mb-4">
+          <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
+          <span style={{ color: AMBER, fontSize: "1.1vw", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.1em" }}>
+            Next Steps
+          </span>
+          <div style={{ height: "3px", width: "2vw", backgroundColor: AMBER }} />
+        </div>
+        <h2
+          style={{
+            fontFamily: "'Montserrat', sans-serif",
+            fontSize: "3.5vw",
+            fontWeight: 800,
+            color: "#ffffff",
+            lineHeight: 1.15,
+            marginBottom: "2vh",
+            textAlign: "center",
+          }}
+        >
+          What Happens <span style={{ color: AMBER }}>Next</span>
+        </h2>
+        <p style={{ fontSize: "1.4vw", color: "#ffffffaa", textAlign: "center", marginBottom: "5vh" }}>
+          A simple, straightforward process from start to finish.
+        </p>
+        <div className="flex gap-5" style={{ width: "100%", justifyContent: "center" }}>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+            <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
+              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>1</span>
+            </div>
+            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>We gather your details</h3>
+            <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>Services, areas covered, contact info, photos, and logos</p>
+          </div>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+            <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
+              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>2</span>
+            </div>
+            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>I design the website</h3>
+            <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>A clean, professional site built around your business</p>
+          </div>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+            <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
+              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>3</span>
+            </div>
+            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>You review and approve it</h3>
+            <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>Any small changes can be made before launch</p>
+          </div>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+            <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
+              <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>4</span>
+            </div>
+            <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>Your site goes live</h3>
+            <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>Ready to help local customers find and contact you</p>
+          </div>
+        </div>
+        <p style={{ fontSize: "1.2vw", color: "#ffffffaa", textAlign: "center", marginTop: "4vh" }}>
+          From start to finish, the whole process can be simple and stress-free.
+        </p>
+      </div>
+      <div className="absolute bottom-0 left-0 right-0" style={{ height: "0.4vh", backgroundColor: AMBER }} />
     </SlideWrapper>
   );
 }
@@ -637,7 +625,7 @@ function Slide8() {
           Ready to Grow <span style={{ color: AMBER }}>Your Business?</span>
         </h2>
         <p style={{ fontSize: "1.5vw", color: "#ffffffaa", lineHeight: 1.6, maxWidth: "50vw", marginBottom: "2vh" }}>
-          Let&apos;s build a website that works as hard as you do.
+          Let&apos;s get your business showing up when people search.
         </p>
         <p style={{ fontSize: "1.3vw", color: "#ffffffcc", fontWeight: 600, marginBottom: "4vh" }}>
           One extra boiler job easily pays for the entire website.
@@ -677,10 +665,10 @@ const slides = [
   { component: Slide1, title: "Cover" },
   { component: Slide2, title: "The Problem" },
   { component: Slide3, title: "The Opportunity" },
-  { component: Slide4, title: "Key Features" },
-  { component: Slide5, title: "Local SEO" },
-  { component: Slide6, title: "Customer Reviews" },
-  { component: Slide7, title: "Pricing" },
+  { component: Slide4, title: "Local SEO" },
+  { component: Slide5, title: "Customer Reviews" },
+  { component: Slide6, title: "Pricing" },
+  { component: Slide7, title: "What Happens Next" },
   { component: Slide8, title: "Final Call to Action" },
 ];
 
