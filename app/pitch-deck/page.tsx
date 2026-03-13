@@ -562,28 +562,28 @@ function Slide7() {
           A simple, straightforward process from start to finish.
         </p>
         <div className="flex gap-5" style={{ width: "100%", justifyContent: "center" }}>
-          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${AMBER}10`, padding: "3vh 2vw", width: "22%", border: `1px solid ${AMBER}30` }}>
             <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
               <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>1</span>
             </div>
             <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>We gather your details</h3>
             <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>Services, areas covered, contact info, photos, and logos</p>
           </div>
-          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${AMBER}10`, padding: "3vh 2vw", width: "22%", border: `1px solid ${AMBER}30` }}>
             <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
               <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>2</span>
             </div>
             <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>I design the website</h3>
             <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>A clean, professional site built around your business</p>
           </div>
-          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${AMBER}10`, padding: "3vh 2vw", width: "22%", border: `1px solid ${AMBER}30` }}>
             <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
               <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>3</span>
             </div>
             <h3 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 700, color: "#ffffff", marginBottom: "1vh" }}>You review and approve it</h3>
             <p style={{ fontSize: "1.05vw", color: "#ffffff88", lineHeight: 1.5 }}>Any small changes can be made before launch</p>
           </div>
-          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${BLUE_ACCENT}20`, padding: "3vh 2vw", width: "22%", border: `1px solid ${BLUE_ACCENT}35` }}>
+          <div className="rounded-xl flex flex-col" style={{ backgroundColor: `${AMBER}10`, padding: "3vh 2vw", width: "22%", border: `1px solid ${AMBER}30` }}>
             <div className="rounded-full flex items-center justify-center mb-3" style={{ width: "2.5vw", height: "2.5vw", backgroundColor: AMBER }}>
               <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.3vw", fontWeight: 800, color: NAVY }}>4</span>
             </div>
