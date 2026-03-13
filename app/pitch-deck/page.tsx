@@ -604,7 +604,7 @@ function Slide7() {
           </div>
         </div>
         <p style={{ fontSize: "1.15vw", color: "#888", textAlign: "center", marginTop: "3vh" }}>
-          Most web agencies charge &pound;1,500&ndash;&pound;3,000 for a site like this. &nbsp;
+          Most web agencies charge &pound;1500&ndash;&pound;3000 for a site like this. &nbsp;
           <span style={{ color: "#666", fontWeight: 500 }}>If you ever decide the website isn&apos;t useful, you can cancel hosting anytime.</span>
         </p>
       </div>
