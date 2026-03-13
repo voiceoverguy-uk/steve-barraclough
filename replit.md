@@ -73,7 +73,7 @@ The project is ready for Vercel. No additional config needed. Deploy by connecti
 
 ## Pitch Deck
 
-A 10-slide website pitch deck is available at `/pitch-deck`. It uses Montserrat (display) + Inter (body) fonts with a warm professional palette (navy, amber/gold, off-white). Slides cover: title, problem, opportunity, website overview, features, local SEO, testimonials, hosting, pricing (placeholders), and closing CTA. Generated images are in `public/images/pitch-*.png`.
+A 10-slide website pitch deck is available at `/the-pitch`. It uses Montserrat (display) + Inter (body) fonts with a warm professional palette (navy, amber/gold, off-white). Slides cover: title, problem, opportunity, website overview, features, local SEO, testimonials, hosting, pricing (placeholders), and closing CTA. Generated images are in `public/images/pitch-*.png`.
 
 ## TODO / Future Additions
 
