@@ -183,7 +183,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="John Smith"
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors"
+                      className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors"
                     />
                   </div>
                   <div>
@@ -198,7 +198,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="07860 141571"
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors"
+                      className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors"
                     />
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="john@example.com"
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors"
+                      className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors"
                     />
                   </div>
                   <div>
@@ -229,7 +229,7 @@ export default function Contact() {
                       value={formData.postcode}
                       onChange={handleChange}
                       placeholder="WF8 1AA"
-                      className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors"
+                      className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors"
                     />
                   </div>
                 </div>
@@ -243,7 +243,7 @@ export default function Contact() {
                     required
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors bg-white"
+                    className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors bg-white"
                   >
                     <option value="" disabled>Select a service...</option>
                     <option value="boiler-installation">Boiler Installation</option>
@@ -265,7 +265,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Tell us a bit about what you need..."
-                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#003da5]/30 focus:border-[#003da5] transition-colors resize-none"
+                    className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors resize-none"
                   />
                 </div>
                 <button
