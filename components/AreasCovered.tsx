@@ -54,19 +54,29 @@ export default function AreasCovered() {
                 const isSelected = area === selectedArea;
                 const isSurrounding = area === "Surrounding areas";
 
+                if (isSurrounding) {
+                  return (
+                    <span
+                      key={area}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-[#ffce00]/20 text-[#0d1b2a] border border-[#ffce00]/50"
+                    >
+                      <svg className="w-3 h-3 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                      </svg>
+                      {area}
+                    </span>
+                  );
+                }
+
                 return (
                   <button
                     key={area}
                     type="button"
-                    onClick={() => {
-                      if (!isSurrounding) setSelectedArea(area);
-                    }}
-                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                    onClick={() => setSelectedArea(area)}
+                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
                       isSelected
                         ? "bg-[#003da5] text-white"
-                        : isSurrounding
-                        ? "bg-[#ffce00]/20 text-[#0d1b2a] border border-[#ffce00]/50 cursor-default"
-                        : "bg-white text-[#0d1b2a] border border-gray-200 hover:border-[#003da5]/30 hover:bg-blue-50 cursor-pointer"
+                        : "bg-white text-[#0d1b2a] border border-gray-200 hover:border-[#003da5]/30 hover:bg-blue-50"
                     }`}
                   >
                     <svg className="w-3 h-3 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
