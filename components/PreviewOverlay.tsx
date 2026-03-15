@@ -16,7 +16,6 @@ export default function PreviewOverlay() {
     document.addEventListener("cut", prevent);
     document.addEventListener("click", blockClicks, true);
     document.addEventListener("mousedown", blockClicks, true);
-    document.addEventListener("touchstart", blockClicks, true);
 
     return () => {
       document.removeEventListener("contextmenu", prevent);
@@ -25,7 +24,6 @@ export default function PreviewOverlay() {
       document.removeEventListener("cut", prevent);
       document.removeEventListener("click", blockClicks, true);
       document.removeEventListener("mousedown", blockClicks, true);
-      document.removeEventListener("touchstart", blockClicks, true);
     };
   }, []);
 
