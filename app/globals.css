@@ -83,3 +83,14 @@ body {
   user-select: none !important;
   -webkit-user-select: none !important;
 }
+
+.preview-mode a,
+.preview-mode button,
+.preview-mode input,
+.preview-mode select,
+.preview-mode textarea,
+.preview-mode [role="button"],
+.preview-mode [onclick] {
+  pointer-events: none !important;
+  cursor: default !important;
+}
