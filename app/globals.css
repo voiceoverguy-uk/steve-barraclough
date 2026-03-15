@@ -78,3 +78,8 @@ body {
 .faq-answer.open {
   max-height: 400px;
 }
+
+.preview-mode {
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
