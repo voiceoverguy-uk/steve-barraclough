@@ -17,6 +17,14 @@ export default function PreviewOverlay() {
     document.addEventListener("click", blockClicks, true);
     document.addEventListener("mousedown", blockClicks, true);
 
+    const blockKeys = (e: KeyboardEvent) => {
+      if (["Enter", " ", "Tab"].includes(e.key)) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    };
+    document.addEventListener("keydown", blockKeys, true);
+
     return () => {
       document.removeEventListener("contextmenu", prevent);
       document.removeEventListener("selectstart", prevent);
@@ -24,6 +32,7 @@ export default function PreviewOverlay() {
       document.removeEventListener("cut", prevent);
       document.removeEventListener("click", blockClicks, true);
       document.removeEventListener("mousedown", blockClicks, true);
+      document.removeEventListener("keydown", blockKeys, true);
     };
   }, []);
 
