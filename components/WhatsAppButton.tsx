@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
+    function handleClickOutside(e: PointerEvent) {
       if (
         containerRef.current &&
         !containerRef.current.contains(e.target as Node)
@@ -21,10 +21,10 @@ export default function WhatsAppButton() {
       }
     }
     if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("pointerdown", handleClickOutside);
     }
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("pointerdown", handleClickOutside);
     };
   }, [isOpen]);
 
@@ -33,7 +33,7 @@ export default function WhatsAppButton() {
   return (
     <div
       ref={containerRef}
-      className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3"
+      className="fixed bottom-6 right-6 z-[100] flex flex-col items-end gap-3"
     >
       {isOpen && (
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 w-72 p-4 animate-in fade-in slide-in-from-bottom-2 duration-200">
@@ -56,8 +56,7 @@ export default function WhatsAppButton() {
             </div>
           </div>
           <div className="bg-[#f0fdf4] rounded-xl p-3 mb-3 text-sm text-gray-700 leading-relaxed">
-            Hi there! Chat with us on WhatsApp — we're happy to help with
-            any gas, boiler or heating questions.
+            Hi there! Chat with us on WhatsApp.
           </div>
           <a
             href={WHATSAPP_URL}
