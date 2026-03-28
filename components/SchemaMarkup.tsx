@@ -7,7 +7,7 @@ const localBusinessSchema = {
     "https://schema.org/Plumber",
     "https://schema.org/HVACBusiness"
   ],
-  "name": "Steve Barraclough Gas Engineers",
+  "name": "Steve Barraclough Heating",
   "description": "Gas Safe registered father-and-son gas engineers providing boiler installations, servicing, repairs, plumbing and heating services across Pontefract and West Yorkshire.",
   "url": SITE_URL,
   "telephone": ["07860 141571", "07503 373239"],
@@ -68,7 +68,7 @@ const servicesSchema = {
     "description": s.description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Steve Barraclough Gas Engineers",
+      "name": "Steve Barraclough Heating",
       "url": SITE_URL
     },
     "areaServed": {

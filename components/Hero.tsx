@@ -40,7 +40,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Established in 1991, Steve Barraclough Gas Engineers is a trusted
+          Established in 1991, Steve Barraclough Heating is a trusted
           father-and-son team based in Pontefract with over 60 years of combined
           experience installing, servicing and repairing boilers across West Yorkshire.
         </p>

@@ -107,7 +107,7 @@ export default function AreasCovered() {
               height="480"
               style={{ border: 0, display: "block" }}
               loading="lazy"
-              title={`Steve Barraclough Gas Engineers – ${selectedArea}, West Yorkshire`}
+              title={`Steve Barraclough Heating – ${selectedArea}, West Yorkshire`}
             />
           </div>
         </div>

@@ -133,7 +133,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs" suppressHydrationWarning>
-            &copy; {new Date().getFullYear()} Steve Barraclough Gas Engineers. All rights reserved.
+            &copy; {new Date().getFullYear()} Steve Barraclough Heating. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <a href="/privacy-policy" className="text-gray-500 hover:text-gray-300 text-xs transition-colors">

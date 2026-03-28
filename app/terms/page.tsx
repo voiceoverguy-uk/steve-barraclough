@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Disclaimer | Steve Barraclough Gas Engineers",
-  description: "Terms and disclaimer for Steve Barraclough Gas Engineers, Pontefract.",
+  title: "Terms & Disclaimer | Steve Barraclough Heating",
+  description: "Terms and disclaimer for Steve Barraclough Heating, Pontefract.",
 };
 
 export default function Terms() {
@@ -13,7 +13,7 @@ export default function Terms() {
       <div className="bg-[#0d1b2a] py-4 px-4">
         <div className="max-w-3xl mx-auto">
           <Link href="/" className="text-[#ffce00] text-sm font-medium hover:underline">
-            ← Back to Steve Barraclough Gas Engineers
+            ← Back to Steve Barraclough Heating
           </Link>
         </div>
       </div>
@@ -26,7 +26,7 @@ export default function Terms() {
           <section>
             <h2 className="text-lg font-bold text-[#0d1b2a] mb-3">1. About Us</h2>
             <p>
-              Steve Barraclough Gas Engineers is a Gas Safe registered business
+              Steve Barraclough Heating is a Gas Safe registered business
               (Reg. No. 99236) based in Pontefract, West Yorkshire. By using this
               website or contacting us, you agree to the terms set out below.
             </p>
@@ -35,7 +35,7 @@ export default function Terms() {
           <section>
             <h2 className="text-lg font-bold text-[#0d1b2a] mb-3">2. Services</h2>
             <p>
-              All work carried out by Steve Barraclough Gas Engineers is performed
+              All work carried out by Steve Barraclough Heating is performed
               by qualified, Gas Safe registered engineers. Any quotations provided
               are estimates based on the information supplied and may be subject to
               change following an on-site assessment.
@@ -59,7 +59,7 @@ export default function Terms() {
           <section>
             <h2 className="text-lg font-bold text-[#0d1b2a] mb-3">4. Limitation of Liability</h2>
             <p>
-              Steve Barraclough Gas Engineers shall not be liable for any indirect or
+              Steve Barraclough Heating shall not be liable for any indirect or
               consequential loss arising from the use of this website or from any work
               carried out, beyond what is covered by our statutory obligations as a Gas
               Safe registered business.

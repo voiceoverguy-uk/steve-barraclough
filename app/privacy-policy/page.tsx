@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Steve Barraclough Gas Engineers",
-  description: "Privacy policy for Steve Barraclough Gas Engineers, Pontefract.",
+  title: "Privacy Policy | Steve Barraclough Heating",
+  description: "Privacy policy for Steve Barraclough Heating, Pontefract.",
 };
 
 export default function PrivacyPolicy() {
@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
       <div className="bg-[#0d1b2a] py-4 px-4">
         <div className="max-w-3xl mx-auto">
           <Link href="/" className="text-[#ffce00] text-sm font-medium hover:underline">
-            ← Back to Steve Barraclough Gas Engineers
+            ← Back to Steve Barraclough Heating
           </Link>
         </div>
       </div>
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-lg font-bold text-[#0d1b2a] mb-3">1. Who We Are</h2>
             <p>
-              Steve Barraclough Gas Engineers is a Gas Safe registered heating and plumbing
+              Steve Barraclough Heating is a Gas Safe registered heating and plumbing
               business based in Pontefract, West Yorkshire. We are a family-run business
               (Gas Safe Reg. No. 99236). This policy explains how we collect and use
               any information you provide when contacting us.

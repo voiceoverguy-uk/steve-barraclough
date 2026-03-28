@@ -58,7 +58,7 @@ export default function Header() {
                 Steve Barraclough
               </span>
               <span className="text-[#ffce00] text-xs font-medium leading-tight block">
-                Gas Engineers
+                Heating
               </span>
             </div>
           </button>

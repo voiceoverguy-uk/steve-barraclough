@@ -5,7 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts",
+  title: "Steve Barraclough Heating | Pontefract Boiler, Heating & Plumbing Experts",
   description:
     "Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing, heating and free quotes.",
   keywords:
@@ -19,25 +19,25 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Steve Barraclough Gas Engineers | Pontefract Boiler, Heating & Plumbing Experts",
+    title: "Steve Barraclough Heating | Pontefract Boiler, Heating & Plumbing Experts",
     description:
       "Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire for boiler installs, servicing, repairs, plumbing and heating work.",
     type: "website",
     url: "/",
     locale: "en_GB",
-    siteName: "Steve Barraclough Gas Engineers",
+    siteName: "Steve Barraclough Heating",
     images: [
       {
         url: "/gas-ring-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Steve Barraclough Gas Engineers – Pontefract, West Yorkshire",
+        alt: "Steve Barraclough Heating – Pontefract, West Yorkshire",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Steve Barraclough Gas Engineers | Pontefract Gas & Heating Experts",
+    title: "Steve Barraclough Heating | Pontefract Gas & Heating Experts",
     description:
       "Trusted Gas Safe engineers in Pontefract and West Yorkshire for boilers, plumbing and heating services.",
     images: ["/gas-ring-hero.jpg"],

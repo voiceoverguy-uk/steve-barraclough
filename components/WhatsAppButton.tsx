@@ -50,7 +50,7 @@ export default function WhatsAppButton() {
             </div>
             <div>
               <p className="font-semibold text-[#0d1b2a] text-sm leading-snug">
-                Steve Barraclough Gas Engineers
+                Steve Barraclough Heating
               </p>
               <p className="text-gray-500 text-xs">Typically replies within 2 hours</p>
             </div>

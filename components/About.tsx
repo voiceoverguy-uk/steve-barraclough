@@ -8,7 +8,7 @@ export default function About() {
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src="/steve-barraclough-team.jpg"
-                alt="Steve and his son – the father-and-son team behind Steve Barraclough Gas Engineers"
+                alt="Steve and his son – the father-and-son team behind Steve Barraclough Heating"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -50,7 +50,7 @@ export default function About() {
               <span className="text-[#003da5] whitespace-nowrap">Trust & Experience</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Steve Barraclough Gas Engineers is a trusted father-and-son team
+              Steve Barraclough Heating is a trusted father-and-son team
               based in Pontefract, working across West Yorkshire. Established in
               1991, we bring{" "}
               <strong className="text-[#0d1b2a]">over 60 years of combined experience</strong>{" "}

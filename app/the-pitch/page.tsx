@@ -84,7 +84,7 @@ function Slide1() {
             marginBottom: "4vh",
           }}
         >
-          A professional website for Steve Barraclough Gas Engineers that builds trust, shows customers you&apos;re the one to call, and helps local customers find you online.
+          A professional website for Steve Barraclough Heating that builds trust, shows customers you&apos;re the one to call, and helps local customers find you online.
         </p>
         <div className="flex items-center gap-4">
           <div
@@ -671,7 +671,7 @@ export default function PitchDeck() {
       <div className="w-full" style={{ maxWidth: "1400px", padding: "2vh 2vw" }}>
         <div className="flex items-center justify-between mb-4">
           <h1 style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "1.2vw", fontWeight: 700, color: "#ffffff" }}>
-            Steve Barraclough Gas Engineers &mdash; Website Proposal
+            Steve Barraclough Heating &mdash; Website Proposal
           </h1>
           <span style={{ fontSize: "1vw", color: "#ffffff66" }}>
             Slide {current + 1} of {slides.length}

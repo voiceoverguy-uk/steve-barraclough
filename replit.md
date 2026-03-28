@@ -1,4 +1,4 @@
-# Steve Barraclough Gas Engineers Website
+# Steve Barraclough Heating Website
 
 A clean, modern, mobile-first single-page website for a local father-and-son gas engineering business based in Pontefract, West Yorkshire.
 
@@ -42,7 +42,7 @@ components/
 
 ## Business Details
 
-- Business: Steve Barraclough Gas Engineers
+- Business: Steve Barraclough Heating
 - Location: Pontefract, West Yorkshire
 - Gas Safe No.: 99236
 - Worcester Bosch Accredited Installer
