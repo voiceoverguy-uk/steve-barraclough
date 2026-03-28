@@ -9,6 +9,7 @@ const areas = [
   "Featherstone",
   "Normanton",
   "Knottingley",
+  "York",
   "Barnsley",
   "Huddersfield",
   "Hemsworth",
