@@ -11,11 +11,9 @@ const areas = [
   "Knottingley",
   "York",
   "Barnsley",
-  "Huddersfield",
   "Hemsworth",
   "South Elmsall",
   "Ossett",
-  "Batley",
   "Morley",
   "Surrounding areas",
 ];

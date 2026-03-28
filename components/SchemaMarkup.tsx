@@ -28,11 +28,9 @@ const localBusinessSchema = {
     "Knottingley",
     "York",
     "Barnsley",
-    "Huddersfield",
     "Hemsworth",
     "South Elmsall",
     "Ossett",
-    "Batley",
     "Morley",
     "West Yorkshire"
   ],
@@ -98,7 +96,7 @@ const faqSchema = {
       "name": "Do you cover all of West Yorkshire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, York, Huddersfield and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know."
+        "text": "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, York and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know."
       }
     },
     {
