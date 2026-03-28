@@ -52,7 +52,7 @@ export default function WhatsAppButton() {
               <p className="font-semibold text-[#0d1b2a] text-sm leading-snug">
                 Steve Barraclough Gas Engineers
               </p>
-              <p className="text-gray-500 text-xs">Mon–Sat, 8am–6pm</p>
+              <p className="text-gray-500 text-xs">Typically replies within a year</p>
             </div>
           </div>
           <div className="bg-[#f0fdf4] rounded-xl p-3 mb-3 text-sm text-gray-700 leading-relaxed">
