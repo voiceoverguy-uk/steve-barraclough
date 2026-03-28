@@ -56,7 +56,7 @@ export default function Footer() {
               </div>
               <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
                 <span className="text-gray-300 text-xs font-medium">
-                  Est. 1979 · 60+ Years Combined Experience
+                  Est. 1991 · 60+ Years Combined Experience
                 </span>
               </div>
             </div>

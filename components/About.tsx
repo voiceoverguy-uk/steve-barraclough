@@ -52,7 +52,7 @@ export default function About() {
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Steve Barraclough Gas Engineers is a trusted father-and-son team
               based in Pontefract, working across West Yorkshire. Established in
-              1979, we bring{" "}
+              1991, we bring{" "}
               <strong className="text-[#0d1b2a]">over 60 years of combined experience</strong>{" "}
               to every job — providing reliable gas, heating and plumbing services
               with honest advice, quality workmanship, and friendly local service.
@@ -68,7 +68,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-3">
               {[
                 "Gas Safe Registered (No. 99236)",
-                "Est. 1979",
+                "Est. 1991",
                 "60+ Years Combined Experience",
                 "Father & Son Team",
               ].map((item) => (
