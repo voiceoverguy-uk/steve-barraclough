@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SITE_URL } from "@/lib/siteConfig";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -64,6 +65,7 @@ export default function RootLayout({
       </head>
       <body className="overflow-x-hidden" suppressHydrationWarning>
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );
