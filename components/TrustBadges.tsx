@@ -16,6 +16,7 @@ const badges = [
     color: "text-[#003da5]",
     bg: "bg-blue-50",
     border: "border-blue-100",
+    href: "https://www.gassaferegister.co.uk/checkbusiness?bid=eCaMSCA%252b3ZQbbh743Ww4Tg%253d%253d&cp=h0xJjWx9wPEbz9nwq0CLK3Z%252feHO0sVvxPBUwpX%252fMp8Y%253d",
   },
   {
     icon: (
@@ -61,22 +62,40 @@ export default function TrustBadges() {
     <section className="bg-white py-10 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
-          {badges.map((badge) => (
-            <div
-              key={badge.title}
-              className={`flex items-center gap-4 p-4 lg:p-5 rounded-2xl border ${badge.bg} ${badge.border} transition-transform duration-200 hover:-translate-y-0.5`}
-            >
-              <div className={`flex-shrink-0 ${badge.color}`}>{badge.icon}</div>
-              <div>
-                <p className="font-semibold text-[#0d1b2a] text-sm lg:text-base leading-snug">
-                  {badge.title}
-                </p>
-                <p className="text-gray-500 text-xs lg:text-sm mt-0.5">
-                  {badge.subtitle}
-                </p>
+          {badges.map((badge) => {
+            const inner = (
+              <>
+                <div className={`flex-shrink-0 ${badge.color}`}>{badge.icon}</div>
+                <div>
+                  <p className="font-semibold text-[#0d1b2a] text-sm lg:text-base leading-snug">
+                    {badge.title}
+                  </p>
+                  <p className="text-gray-500 text-xs lg:text-sm mt-0.5">
+                    {badge.subtitle}
+                  </p>
+                </div>
+              </>
+            );
+            const cls = `flex items-center gap-4 p-4 lg:p-5 rounded-2xl border ${badge.bg} ${badge.border} transition-transform duration-200 hover:-translate-y-0.5`;
+            if ("href" in badge && badge.href) {
+              return (
+                <a
+                  key={badge.title}
+                  href={badge.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cls + " cursor-pointer"}
+                >
+                  {inner}
+                </a>
+              );
+            }
+            return (
+              <div key={badge.title} className={cls}>
+                {inner}
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
