@@ -51,7 +51,7 @@ const reasons = [
       </svg>
     ),
     title: "Attention to Detail",
-    sub: "Anal about pipes!",
+    sub: "It's in our nature to leave your home the way we found it... but warmer.",
   },
 ];
 
