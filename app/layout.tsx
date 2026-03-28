@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Gas Safe registered father-and-son gas engineers in Pontefract, covering West Yorkshire. Boiler installs, servicing, repairs, plumbing, heating and free quotes.",
   keywords:
-    "gas engineers Pontefract, boiler installation West Yorkshire, Gas Safe registered, Worcester Bosch installer, boiler repair, heating engineer, plumber Pontefract",
+    "gas engineers Pontefract, boiler installation West Yorkshire, Gas Safe registered, boiler repair, heating engineer, plumber Pontefract",
   robots: {
     index: true,
     follow: true,

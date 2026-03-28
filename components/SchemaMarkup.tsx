@@ -51,7 +51,6 @@ const services = [
   { name: "Boiler Installation", description: "Full boiler installation service including new boiler supply and fitting across West Yorkshire." },
   { name: "Boiler Servicing", description: "Annual boiler servicing to keep your boiler running safely and efficiently in Pontefract and West Yorkshire." },
   { name: "Boiler Repairs", description: "Fast and reliable boiler repair service covering Pontefract, Wakefield, Castleford and surrounding areas." },
-  { name: "Worcester Bosch Boiler Installation", description: "Accredited Worcester Bosch boiler installation with extended manufacturer warranties." },
   { name: "Central Heating Upgrades", description: "Full central heating system upgrades and replacements across West Yorkshire." },
   { name: "Radiator Installation and Repair", description: "Radiator fitting, replacement and repair for homes in Pontefract and West Yorkshire." },
   { name: "Gas Safety Inspections", description: "Gas safety inspections carried out by Gas Safe registered engineers in West Yorkshire." },
@@ -99,14 +98,6 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, Huddersfield and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you install Worcester Bosch boilers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. We are Worcester Bosch Accredited Installers, which means we are trained and approved to install, service and repair Worcester Bosch boilers. As an accredited installer, we can also offer you extended manufacturer warranties that go beyond the standard cover."
       }
     },
     {

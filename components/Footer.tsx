@@ -54,18 +54,6 @@ export default function Footer() {
                   Gas Safe · No. 99236
                 </span>
               </div>
-              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
-                <Image
-                  src="/images/worcester-accredited-logo.jpg"
-                  alt="Worcester Bosch Accredited Installer"
-                  width={20}
-                  height={20}
-                  className="w-5 h-5 object-contain"
-                />
-                <span className="text-gray-300 text-xs font-medium">
-                  Worcester Bosch Accredited
-                </span>
-              </div>
             </div>
           </div>
 

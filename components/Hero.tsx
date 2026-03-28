@@ -78,7 +78,6 @@ export default function Hero() {
           {[
             { label: "Gas Safe Registered" },
             { label: "Gas Safe No. 99236" },
-            { label: "Worcester Bosch Accredited" },
             { label: "Father & Son Team" },
           ].map((item) => (
             <div

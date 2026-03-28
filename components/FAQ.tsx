@@ -14,11 +14,6 @@ const faqs = [
       "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, Huddersfield and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know.",
   },
   {
-    question: "Do you install Worcester Bosch boilers?",
-    answer:
-      "Absolutely. We are Worcester Bosch Accredited Installers, which means we are trained and approved to install, service and repair Worcester Bosch boilers. As an accredited installer, we can also offer you extended manufacturer warranties that go beyond the standard cover.",
-  },
-  {
     question: "Do you offer free quotes?",
     answer:
       "Yes, we offer free, no-obligation quotes on all work. We'll assess the job, give you a clear and honest price, and there's no pressure to go ahead. We believe in transparent pricing — no hidden charges or surprise fees.",
