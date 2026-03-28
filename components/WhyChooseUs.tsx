@@ -14,8 +14,8 @@ const reasons = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "20+ Years Experience",
-    sub: "Decades of hands-on experience across West Yorkshire.",
+    title: "60+ Years Combined Experience",
+    sub: "Established in 1979 — decades of hands-on expertise across West Yorkshire.",
   },
   {
     icon: (

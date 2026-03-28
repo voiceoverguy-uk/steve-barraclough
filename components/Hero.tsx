@@ -40,9 +40,9 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-          A trusted father-and-son gas and heating engineer team in Pontefract
-          with over 20 years of experience installing, servicing and repairing
-          boilers across West Yorkshire.
+          Established in 1979, Steve Barraclough Gas Engineers is a trusted
+          father-and-son team based in Pontefract with over 60 years of combined
+          experience installing, servicing and repairing boilers across West Yorkshire.
         </p>
 
         {/* CTA Buttons */}
@@ -78,6 +78,8 @@ export default function Hero() {
           {[
             { label: "Gas Safe Registered" },
             { label: "Gas Safe No. 99236" },
+            { label: "Est. 1979" },
+            { label: "60+ Years Combined Experience" },
             { label: "Father & Son Team" },
           ].map((item) => (
             <div

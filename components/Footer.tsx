@@ -54,6 +54,11 @@ export default function Footer() {
                   Gas Safe · No. 99236
                 </span>
               </div>
+              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
+                <span className="text-gray-300 text-xs font-medium">
+                  Est. 1979 · 60+ Years Combined Experience
+                </span>
+              </div>
             </div>
           </div>
 

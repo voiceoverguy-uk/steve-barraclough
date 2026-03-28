@@ -67,6 +67,8 @@ export default function About() {
             <div className="grid grid-cols-2 gap-3">
               {[
                 "Gas Safe Registered (No. 99236)",
+                "Est. 1979",
+                "60+ Years Combined Experience",
                 "Father & Son Team",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2.5">
