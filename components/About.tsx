@@ -20,8 +20,8 @@ export default function About() {
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-[#0d1b2a] text-sm">20+ Years</p>
-                <p className="text-gray-500 text-xs">Experience</p>
+                <p className="font-bold text-[#0d1b2a] text-sm">60+ Years</p>
+                <p className="text-gray-500 text-xs">Combined Experience</p>
               </div>
             </div>
             <div className="absolute top-2 left-2 sm:-top-5 sm:-left-5 bg-[#003da5] rounded-2xl shadow-xl p-4 flex items-center gap-3">
@@ -51,10 +51,11 @@ export default function About() {
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Steve Barraclough Gas Engineers is a trusted father-and-son team
-              based in Pontefract, working across West Yorkshire. With over{" "}
-              <strong className="text-[#0d1b2a]">20 years of experience</strong>,
-              we provide reliable gas, heating and plumbing services with honest
-              advice, quality workmanship, and friendly local service.
+              based in Pontefract, working across West Yorkshire. Established in
+              1979, we bring{" "}
+              <strong className="text-[#0d1b2a]">over 60 years of combined experience</strong>{" "}
+              to every job — providing reliable gas, heating and plumbing services
+              with honest advice, quality workmanship, and friendly local service.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               As a family business, we understand the importance of trust. Every

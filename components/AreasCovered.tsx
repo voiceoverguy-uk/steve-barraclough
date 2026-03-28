@@ -23,7 +23,12 @@ const areas = [
 export default function AreasCovered() {
   const [selectedArea, setSelectedArea] = useState("Pontefract");
 
-  const mapQuery = encodeURIComponent(selectedArea + " West Yorkshire");
+  const areaQueries: Record<string, string> = {
+    "York": "York, North Yorkshire",
+  };
+  const mapQuery = encodeURIComponent(
+    areaQueries[selectedArea] ?? selectedArea + " West Yorkshire"
+  );
   const mapSrc = `https://www.google.com/maps?q=${mapQuery}&output=embed`;
 
   return (
