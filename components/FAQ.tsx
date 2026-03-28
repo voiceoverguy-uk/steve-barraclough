@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "Do you cover all of West Yorkshire?",
     answer:
-      "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Leeds, Barnsley, Featherstone, Normanton, Knottingley, Huddersfield, Dewsbury and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know.",
+      "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, Huddersfield and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know.",
   },
   {
     question: "Do you install Worcester Bosch boilers?",
