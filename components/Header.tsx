@@ -55,10 +55,10 @@ export default function Header() {
             </div>
             <div className="text-left">
               <span className="text-white font-bold text-sm sm:text-base leading-tight block">
-                Steve Barraclough
+                Steve Barraclough Heating
               </span>
               <span className="text-[#ffce00] text-xs font-medium leading-tight block">
-                Heating
+                Gas Engineers
               </span>
             </div>
           </button>
