@@ -44,6 +44,15 @@ const reasons = [
     title: "Free Quotes",
     sub: "Clear pricing with no hidden surprises.",
   },
+  {
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 15.803 7.5 7.5 0 0016.803 15.803z" />
+      </svg>
+    ),
+    title: "Attention to Detail",
+    sub: "Anal about pipes!",
+  },
 ];
 
 export default function WhyChooseUs() {
