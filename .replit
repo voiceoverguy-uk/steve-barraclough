@@ -51,4 +51,3 @@ timeoutMs = 60000
 [userenv]
 
 [userenv.shared]
-NEXT_PUBLIC_PREVIEW_MODE = "true"

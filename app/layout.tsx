@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SITE_URL } from "@/lib/siteConfig";
-import PreviewOverlay from "@/components/PreviewOverlay";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -63,8 +62,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className={`overflow-x-hidden${process.env.NEXT_PUBLIC_PREVIEW_MODE === "true" ? " preview-mode" : ""}`} suppressHydrationWarning>
-        {process.env.NEXT_PUBLIC_PREVIEW_MODE === "true" && <PreviewOverlay />}
+      <body className="overflow-x-hidden" suppressHydrationWarning>
         {children}
       </body>
     </html>
