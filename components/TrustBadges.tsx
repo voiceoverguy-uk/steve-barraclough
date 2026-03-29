@@ -1,6 +1,17 @@
+import type { ReactNode } from "react";
 import Image from "next/image";
 
-const badges = [
+type Badge = {
+  icon: ReactNode;
+  title: string;
+  subtitle: string;
+  color: string;
+  bg: string;
+  border: string;
+  href?: string;
+};
+
+const badges: Badge[] = [
   {
     icon: (
       <Image
