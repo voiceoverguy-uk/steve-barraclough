@@ -88,8 +88,8 @@ export async function POST(request: Request) {
     `;
 
     await resend.emails.send({
-      from: "noreply@stevebarracloughheating.co.uk",
-      to: "stevebarraclough2910@gmail.com",
+      from: process.env.CONTACT_FROM_EMAIL!,
+      to: process.env.CONTACT_TO_EMAIL!,
       replyTo: email,
       subject,
       html,
