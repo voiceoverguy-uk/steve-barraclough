@@ -12,6 +12,7 @@ const localBusinessSchema = {
   "url": SITE_URL,
   "telephone": ["07860 141571", "07503 373239"],
   "image": `${SITE_URL}/steve-barraclough-team.jpg`,
+  "foundingDate": "1991",
   "identifier": "Gas Safe Registered No. 99236",
   "address": {
     "@type": "PostalAddress",

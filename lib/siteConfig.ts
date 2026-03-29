@@ -2,7 +2,7 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
   (process.env.REPLIT_DEV_DOMAIN
     ? `https://${process.env.REPLIT_DEV_DOMAIN}`
-    : "https://stevebarracloughgasengineers.co.uk");
+    : "https://stevebarracloughheating.co.uk");
 
 export const FACEBOOK_URL =
   "https://www.facebook.com/profile.php?id=61586439165592";

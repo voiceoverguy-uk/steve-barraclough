@@ -1,0 +1,42 @@
+Please audit the current schema and SEO setup for this site carefully.
+
+Context:
+- This is currently a one-page website only.
+- The homepage is the main and only page right now.
+- The Schema.org validator is detecting:
+  - 1 LocalBusiness
+  - 11 Service items
+  - 1 FAQPage
+- It is showing 0 errors and 0 warnings.
+- I do NOT want you to blindly add more schema just for the sake of it.
+- I want you to inspect what has actually been implemented and tell me whether it is sensible, proportionate, and correct for a single-page local heating business website.
+
+Your task:
+1. Find and review all schema currently output on the homepage.
+2. Tell me exactly what types are present, where they are generated from, and whether any are duplicated.
+3. Confirm whether the 11 Service items are genuinely appropriate for a one-page site, or whether this is excessive / repetitive / inflated.
+4. Check whether the schema matches the visible on-page content. If schema mentions things not clearly shown on the page, flag that.
+5. Check whether LocalBusiness is fully and sensibly populated for a UK heating business, including key fields such as:
+   - name
+   - url
+   - telephone
+   - address
+   - areaServed
+   - image/logo
+   - sameAs
+6. Check whether FAQPage is valid and whether the FAQ content is visibly present on the page in a way Google would expect.
+7. Tell me whether the homepage should also include WebSite and/or WebPage schema, or whether the current setup is already enough for this stage.
+8. Look for any weak, unnecessary, spammy, or over-engineered schema.
+9. Check the page title, meta description, canonical, H1, and basic homepage SEO structure while you are there.
+10. Give me a verdict in plain English:
+   - “keep as is”
+   - “trim it back”
+   - “add a small number of missing essentials”
+11. If changes are needed, make only minimal sensible changes. Do not refactor the whole site. Do not change layout or visible design unless absolutely necessary.
+
+Output required:
+- A short audit summary
+- A list of exactly what schema is currently on the page
+- Any issues found
+- Your recommendation
+- Then apply the recommended fixes if needed, keeping changes light and appropriate for a one-page site
