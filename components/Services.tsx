@@ -154,12 +154,12 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Plumbing Services */}
+        {/* Landlord & Plumbing Services */}
         <div>
           <div className="flex items-center gap-3 mb-4">
             <div className="h-px flex-1 bg-gray-100" />
             <span className="text-xs font-semibold text-gray-400 uppercase tracking-widest px-3 py-1 bg-gray-50 rounded-full border border-gray-200">
-              Plumbing Services
+              Landlord &amp; Plumbing Services
             </span>
             <div className="h-px flex-1 bg-gray-100" />
           </div>
