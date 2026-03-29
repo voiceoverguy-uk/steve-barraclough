@@ -3,6 +3,15 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+function esc(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -15,9 +24,16 @@ export async function POST(request: Request) {
       );
     }
 
-    const subject = service
-      ? `New Enquiry from ${name} – ${service}`
-      : `New Enquiry from ${name}`;
+    const safeName = esc(name);
+    const safeEmail = esc(email);
+    const safePhone = phone ? esc(phone) : "";
+    const safePostcode = postcode ? esc(postcode) : "";
+    const safeService = service ? esc(service) : "";
+    const safeMessage = esc(message);
+
+    const subject = safeService
+      ? `New Enquiry from ${safeName} – ${safeService}`
+      : `New Enquiry from ${safeName}`;
 
     const html = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #0d1b2a;">
@@ -29,34 +45,34 @@ export async function POST(request: Request) {
           <table style="width: 100%; border-collapse: collapse;">
             <tr>
               <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-weight: bold; width: 140px; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em;">Name</td>
-              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${name}</td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${safeName}</td>
             </tr>
             <tr>
               <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em;">Email</td>
-              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;"><a href="mailto:${email}" style="color: #003da5;">${email}</a></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;"><a href="mailto:${safeEmail}" style="color: #003da5;">${safeEmail}</a></td>
             </tr>
-            ${phone ? `
+            ${safePhone ? `
             <tr>
               <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em;">Phone</td>
-              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;"><a href="tel:${phone}" style="color: #003da5;">${phone}</a></td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;"><a href="tel:${safePhone}" style="color: #003da5;">${safePhone}</a></td>
             </tr>` : ""}
-            ${postcode ? `
+            ${safePostcode ? `
             <tr>
               <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em;">Postcode</td>
-              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${postcode}</td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${safePostcode}</td>
             </tr>` : ""}
-            ${service ? `
+            ${safeService ? `
             <tr>
               <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-weight: bold; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em;">Service</td>
-              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${service}</td>
+              <td style="padding: 10px 0; border-bottom: 1px solid #e2e8f0; font-size: 15px;">${safeService}</td>
             </tr>` : ""}
             <tr>
               <td style="padding: 10px 0; font-weight: bold; color: #64748b; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; vertical-align: top;">Message</td>
-              <td style="padding: 10px 0; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${message}</td>
+              <td style="padding: 10px 0; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${safeMessage}</td>
             </tr>
           </table>
           <div style="margin-top: 24px; padding: 16px; background: #ffce00; border-radius: 6px;">
-            <p style="margin: 0; font-size: 13px; color: #0d1b2a; font-weight: bold;">Quick reply tip: hit Reply to respond directly to ${name} at ${email}</p>
+            <p style="margin: 0; font-size: 13px; color: #0d1b2a; font-weight: bold;">Quick reply tip: hit Reply to respond directly to ${safeName} at ${safeEmail}</p>
           </div>
         </div>
       </div>

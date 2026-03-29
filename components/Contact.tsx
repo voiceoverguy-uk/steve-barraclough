@@ -37,7 +37,7 @@ export default function Contact() {
       if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
     } catch {
-      setError("Something went wrong — please call us directly on 07860 141571.");
+      setError("Something went wrong — please call us directly.");
     } finally {
       setLoading(false);
     }
@@ -220,12 +220,13 @@ export default function Contact() {
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-[#0d1b2a] mb-1.5" htmlFor="email">
-                      Email Address
+                      Email Address <span className="text-red-400">*</span>
                     </label>
                     <input
                       type="email"
                       id="email"
                       name="email"
+                      required
                       value={formData.email}
                       onChange={handleChange}
                       placeholder="john@example.com"
@@ -271,12 +272,13 @@ export default function Contact() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-[#0d1b2a] mb-1.5" htmlFor="message">
-                    Message
+                    Message <span className="text-red-400">*</span>
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={4}
+                    required
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Tell us a bit about what you need..."
