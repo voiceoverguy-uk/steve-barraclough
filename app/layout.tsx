@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     siteName: "Steve Barraclough Heating",
     images: [
       {
-        url: "/gas-ring-hero.jpg",
+        url: "/og",
         width: 1200,
         height: 630,
-        alt: "Steve Barraclough Heating – Pontefract, West Yorkshire",
+        alt: "Steve Barraclough Heating – Gas Safe Engineers in Pontefract and West Yorkshire",
       },
     ],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Steve Barraclough Heating | Pontefract Gas & Heating Experts",
     description:
       "Trusted Gas Safe engineers in Pontefract and West Yorkshire for boilers, plumbing and heating services.",
-    images: ["/gas-ring-hero.jpg"],
+    images: ["/og"],
   },
 };
 
