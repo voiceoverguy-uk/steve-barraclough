@@ -16,7 +16,6 @@ const badges = [
     color: "text-[#003da5]",
     bg: "bg-blue-50",
     border: "border-blue-100",
-    href: "https://www.gassaferegister.co.uk/checkbusiness?bid=eCaMSCA%252b3ZQbbh743Ww4Tg%253d%253d&cp=h0xJjWx9wPEbz9nwq0CLK3Z%252feHO0sVvxPBUwpX%252fMp8Y%253d",
   },
   {
     icon: (

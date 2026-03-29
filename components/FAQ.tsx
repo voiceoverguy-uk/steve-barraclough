@@ -1,12 +1,27 @@
 "use client";
 
 import { useState } from "react";
+import type { ReactNode } from "react";
 
-const faqs = [
+const faqs: { question: string; answer: ReactNode }[] = [
   {
     question: "Are you Gas Safe registered?",
-    answer:
-      "Yes, we are fully Gas Safe registered. Our registration number is 99236. You can verify this on the official Gas Safe Register website. We are legally qualified to carry out gas work on your home or property, and we take safety extremely seriously.",
+    answer: (
+      <>
+        Yes, we are fully Gas Safe registered. Our registration number is 99236.
+        You can verify this on the official{" "}
+        <a
+          href="https://www.gassaferegister.co.uk/checkbusiness?bid=eCaMSCA%252b3ZQbbh743Ww4Tg%253d%253d&cp=h0xJjWx9wPEbz9nwq0CLK3Z%252feHO0sVvxPBUwpX%252fMp8Y%253d"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#003da5] underline hover:text-[#003da5]/80"
+        >
+          Gas Safe Register website
+        </a>
+        . We are legally qualified to carry out gas work on your home or
+        property, and we take safety extremely seriously.
+      </>
+    ),
   },
   {
     question: "Do you cover all of West Yorkshire?",
