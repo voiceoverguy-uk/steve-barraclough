@@ -96,7 +96,7 @@ const faqSchema = {
       "name": "Do you cover all of West Yorkshire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes — while we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, York and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know."
+        "text": "Yes. While we're based in Pontefract, we cover a wide area across West Yorkshire including Wakefield, Castleford, Barnsley, Featherstone, Normanton, Knottingley, York and many more. If you're unsure whether we cover your location, just give us a call and we'll let you know. We probably do."
       }
     },
     {
@@ -104,15 +104,15 @@ const faqSchema = {
       "name": "Do you offer free quotes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we offer free, no-obligation quotes on all work. We'll assess the job, give you a clear and honest price, and there's no pressure to go ahead. We believe in transparent pricing — no hidden charges or surprise fees."
+        "text": "Yes, we offer free, no-obligation quotes on all work. We'll assess the job, give you a clear and honest price, and there's no pressure to go ahead. We believe in transparent pricing, no hidden charges or surprise fees. What you will get is a quality job with no surprises at the end."
       }
     },
     {
       "@type": "Question",
-      "name": "Can you help with boiler repairs and servicing?",
+      "name": "Do you do boiler repairs and servicing in West Yorkshire?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, boiler repairs and servicing are a core part of what we do. Whether your boiler has broken down, is making unusual noises, losing pressure, or just needs its annual service to keep it running safely and efficiently — we can help. We work on most makes and models."
+        "text": "Yes, boiler repairs and servicing are a core part of what we do. Boiler broken down? Making unusual noises, losing pressure? Or if it just needs its annual service to keep it running safely and efficiently, we can help. We work on most makes and models."
       }
     },
     {
@@ -121,6 +121,22 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, alongside gas and heating work, we carry out general plumbing repairs including leak investigation and repair, tap replacement, pipework, radiator work, and unvented cylinder servicing. We're your one-stop-shop for all gas, heating and plumbing needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with Landlords?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, across West Yorkshire we work with single buy to let landlords and portfolio landlords. Maintaining, servicing and providing the all important yearly gas safety certificates. If you let a property and want a reliable service, get in touch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you tidy and will it look good?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is one thing we really excel at. We look after your home like it was ours. We also take great pride in our work. Have a look at the photos to see the quality of our pipework. It's something Steve is particularly proud of."
       }
     }
   ]

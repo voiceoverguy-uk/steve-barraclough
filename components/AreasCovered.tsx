@@ -48,7 +48,7 @@ export default function AreasCovered() {
               As your local gas engineer in Pontefract, we cover a wide area
               across West Yorkshire. Whether you need boiler servicing across
               West Yorkshire or a full heating installation, get in touch and
-              we&apos;ll let you know if we can help — most of the time, we can.
+              we&apos;ll let you know if we can help. Most of the time, we can.
             </p>
 
             <div className="flex flex-wrap gap-2.5">

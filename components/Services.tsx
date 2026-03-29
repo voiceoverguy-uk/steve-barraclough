@@ -134,7 +134,7 @@ export default function Services() {
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-sm">
             From boiler installations to routine servicing and landlord
-            certificates — we cover it all as your local trusted engineers.
+            certificates. We cover it all as your local trusted engineers.
           </p>
         </div>
 

@@ -45,7 +45,7 @@ export default function Contact() {
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
             Free quotes available. Call us today to discuss your boiler, heating
-            or plumbing needs — or fill in the form and we&apos;ll get back to you
+            or plumbing needs. Fill in the form and we&apos;ll get back to you
             promptly.
           </p>
         </div>
@@ -164,7 +164,7 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-[#0d1b2a] mb-2">Message Sent!</h3>
                   <p className="text-gray-500">
                     Thanks for getting in touch. We&apos;ll get back to you as soon
-                    as possible — usually within a few hours.
+                    as possible, usually within a few hours.
                   </p>
                 </div>
               </div>

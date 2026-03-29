@@ -54,13 +54,13 @@ export default function About() {
               based in Pontefract, working across West Yorkshire. Established in
               1991, we bring{" "}
               <strong className="text-[#0d1b2a]">over 60 years of combined experience</strong>{" "}
-              to every job — providing reliable gas, heating and plumbing services
+              to every job, providing reliable gas, heating and plumbing services
               with honest advice, quality workmanship, and friendly local service.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               As a family business, we understand the importance of trust. Every
-              job — whether a routine boiler service or a full central heating
-              installation — receives the same dedication and care. We take pride
+              job, whether a routine boiler service or a full central heating
+              installation, receives the same dedication and care. We take pride
               in our work and our reputation in the local community.
             </p>
           </div>
