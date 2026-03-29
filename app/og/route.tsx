@@ -67,7 +67,7 @@ export async function GET() {
           </div>
           <div
             style={{
-              fontSize: "46px",
+              fontSize: "58px",
               fontWeight: 700,
               color: "#ffce00",
               lineHeight: 1.2,
@@ -78,7 +78,7 @@ export async function GET() {
           </div>
           <div
             style={{
-              fontSize: "30px",
+              fontSize: "40px",
               fontWeight: 400,
               color: "rgba(255,255,255,0.82)",
               lineHeight: 1.3,
