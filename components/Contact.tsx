@@ -37,7 +37,7 @@ export default function Contact() {
       if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
     } catch {
-      setError("Something went wrong — please call us directly.");
+      setError("Something went wrong — please call us directly");
     } finally {
       setLoading(false);
     }

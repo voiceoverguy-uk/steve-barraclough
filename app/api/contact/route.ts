@@ -15,7 +15,16 @@ function esc(str: string): string {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, phone, email, postcode, service, message } = body;
+    const { name, phone, email, postcode, message } = body;
+    const serviceLabels: Record<string, string> = {
+      "boiler-installation": "Boiler Installation",
+      "boiler-service": "Boiler Service",
+      "boiler-repair": "Boiler Repair",
+      "plumbing-repair": "Plumbing Repair",
+      "gas-safety-check": "Gas Safety Check",
+      "other": "Other",
+    };
+    const service = serviceLabels[body.service] ?? body.service;
 
     if (!name || !email || !message) {
       return NextResponse.json(
