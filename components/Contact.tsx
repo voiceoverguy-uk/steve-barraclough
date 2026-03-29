@@ -13,6 +13,8 @@ export default function Contact() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -22,10 +24,23 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Integrate Resend email API here
-    setSubmitted(true);
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error("Failed");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong — please call us directly on 07860 141571.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -268,14 +283,32 @@ export default function Contact() {
                     className="w-full border-2 border-[#ffce00] rounded-xl px-4 py-3 text-sm text-[#0d1b2a] placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ffce00]/40 focus:border-[#e6b800] transition-colors resize-none"
                   />
                 </div>
+                {error && (
+                  <p className="text-red-600 text-sm text-center bg-red-50 border border-red-200 rounded-lg px-4 py-3">
+                    {error}
+                  </p>
+                )}
                 <button
                   type="submit"
-                  className="w-full bg-[#003da5] hover:bg-[#002d7a] text-white font-bold py-3.5 px-6 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-[#003da5]/25 hover:-translate-y-0.5 flex items-center justify-center gap-2"
+                  disabled={loading}
+                  className="w-full bg-[#003da5] hover:bg-[#002d7a] disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold py-3.5 px-6 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-[#003da5]/25 hover:-translate-y-0.5 flex items-center justify-center gap-2"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-                  </svg>
-                  Send Enquiry
+                  {loading ? (
+                    <>
+                      <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                      </svg>
+                      Sending...
+                    </>
+                  ) : (
+                    <>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                      </svg>
+                      Send Enquiry
+                    </>
+                  )}
                 </button>
                 <p className="text-gray-400 text-xs text-center">
                   Free quotes available. No obligation. We&apos;ll respond as quickly as we can.
