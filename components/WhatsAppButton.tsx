@@ -29,7 +29,6 @@ export default function WhatsAppButton() {
   }, [isOpen]);
 
   if (pathname === "/the-pitch") return null;
-  if (process.env.NEXT_PUBLIC_COMING_SOON === "true") return null;
 
   return (
     <div
